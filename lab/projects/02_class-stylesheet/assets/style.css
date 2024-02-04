@@ -1,0 +1,124 @@
+html {
+    color: rgb(0, 40, 217);
+    background-color: rgb(208, 225, 240);
+    cursor: url(media/cursor.png), auto;
+}
+
+.Header-title{
+    font-family: "bungee", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: -60px;
+    text-shadow: 2px 2px 5px rgb(51, 120, 170);
+}
+/* unvisited link */
+a:link {
+    color: rgb(0, 40, 217);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(244, 131, 1);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(249, 45, 178);
+  }
+  
+
+summary{
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: -60px;
+}
+
+li{
+    font-family: "stratum-1-web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.Page{
+    margin-left: 20px;
+}
+
+.Page:hover{
+    cursor: url(media/cursor.png), auto;
+}
+
+.Page-header{
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.Fieldset--section{
+    font-family: "stratum-1-web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px; 
+    display: flex;
+    border: 2px solid rgb(167, 193, 211);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 600px; /* Set a maximum width if needed */
+    margin: auto;
+    margin-top: -75px;
+
+}
+
+.Calendar-weekHeader{
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+
+}
+
+.Calendar-weekBody {
+    display: flex;
+  }
+  
+  .Calendar-class {
+    flex: 1;
+    margin: 10px;
+    border: 2px solid rgb(167, 193, 211);
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+.Footer{
+    box-shadow: 10px 10px 5px rgb(167, 193, 211);
+    width: 600px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.Calendar-class{
+    font-family: "eight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.Fieldset-header{
+    font-family: "stratum-1-web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.Fieldset--stylesheet{
+    margin: 10px;
+    border: 2px solid rgb(167, 193, 211);
+    border-radius: 5px;
+    padding: 10px;
+}
