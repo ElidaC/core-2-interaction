@@ -8,8 +8,6 @@ html {
     font-family: "bungee", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 30px;
-    margin-top: -60px;
     text-shadow: 2px 2px 5px rgb(51, 120, 170);
 }
 /* unvisited link */
@@ -32,15 +30,12 @@ summary{
     font-family: "eight", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    margin-top: -60px;
 }
 
 li{
     font-family: "stratum-1-web", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 15px;
 }
 
 .Page{
@@ -55,9 +50,6 @@ li{
     font-family: "eight", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
-    margin-top: -20px;
-    margin-left: 20px;
 }
 
 .Fieldset--section{
@@ -71,7 +63,6 @@ li{
     padding: 10px;
     max-width: 600px; /* Set a maximum width if needed */
     margin: auto;
-    margin-top: -75px;
 
 }
 
@@ -106,14 +97,12 @@ li{
     font-family: "eight", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
 }
 
 .Fieldset-header{
     font-family: "stratum-1-web", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 20px;
 }
 
 .Fieldset--stylesheet{
