@@ -1,0 +1,46 @@
+html{
+    background-color: rgb(226, 223, 223);
+}
+
+h1{
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 120px;
+  color: rgb(4, 4, 212);
+  margin-top: 200px;
+  margin-right: 100px
+}
+
+.one{
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
+    color: rgb(4, 4, 212);
+    margin-left: 100px;
+    font-size: 25px;
+    text-shadow: 2px 12px 5px rgb(113, 112, 112);
+}
+
+.up {
+    position: relative;
+    bottom: 15px;
+  }
+  
+.down {
+    position: relative;
+    bottom: -30px;}
+
+.blur{
+    filter: blur(4px);
+    display: flex;
+    font-family: "Source Code Pro", monospace;
+    font-style: normal;
+    width: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: rgb(4, 4, 212);
+}
+
+.blur:hover{
+    filter: none;
+}
