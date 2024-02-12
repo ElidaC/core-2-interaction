@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "source-code-pro", monospace;
     height: 100vh;
     background-color: #c7c7c7;
     display: flex;
@@ -12,21 +12,8 @@ body {
     left: 3%;
   }
 
-  .circle {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    cursor: pointer;
-    margin: 10px;
-    background-color: #0000ff;
-  }
 
-  .sentence {
+  .sentenceone {
     display: none;
     position: absolute;
     top: 50%;
@@ -41,11 +28,73 @@ body {
     font-size: 14px;
   }
 
-  .circle:hover + .sentence {
+  .circleone {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #0000ff;
+  }
+
+  .circleone:hover + .sentenceone {
     display: block;
   }
 
-  .circl{
+  .sentencetwo {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 680%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .circletwo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #0000ff;
+  }
+
+  .circletwo:hover + .sentencetwo {
+    display: block;
+  }
+
+  .sentencethree {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 680%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .circlethree{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -59,11 +108,59 @@ body {
     background-color: #ffffff;
   }
 
-  .circl:hover + .sentence {
+  .circlethree:hover + .sentencethree {
     display: block;
   }
 
-  .circ{
+  .sentencefour {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 680%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .circlefour{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #ffffff;
+  }
+
+  .circlefour:hover + .sentencefour {
+    display: block;
+  }
+
+  .sentencefive {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 680%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .circlefive{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -77,11 +174,59 @@ body {
     background-color: #3a3a3a;
   }
 
-  .circ:hover + .sentence {
-    display: block;
+  .circlefive:hover + .sentencefive {
+    display:block;
   }
 
-  .cir{
+  .sentencesix {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 680%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .circlesix{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #3a3a3a;
+  }
+
+  .circlesix:hover + .sentencesix {
+    display:block;
+  }
+
+  .sentenceseven {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 680%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .circleseven{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -95,7 +240,74 @@ body {
     background-color: #f99615;
   }
 
-  .cir:hover + .sentence {
+  .circleseven:hover + .sentenceseven {
+    display: block;
+  }
+
+
+  .sentenceeight {
+    display: none;
+    position: absolute;
+    bottom: 1130%;
+    left: 120%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .circleeight{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #ffffff;
+  }
+
+  .circleeight:hover + .sentenceeight {
+    display: block;
+  }
+
+  .sentencenine {
+    display: none;
+    position: absolute;
+    top: 20%;
+    left: 180%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    background-color: #f99615;
+    color: #3a3a3a;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .circlenine {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #0000ff;
+  }
+
+  .circlenine:hover + .sentencenine {
     display: block;
   }
 
@@ -176,4 +388,107 @@ body {
     border-radius: 10%;
     text-align: center;
     box-shadow: 2px 8px 10px #6b6a6a;
+}
+
+
+@media screen and (max-width: 768px) {
+  h1{
+    margin-top: 300px;
+    margin-left: -20px;
+    font-size: 50px;
+  }
+
+  h2{
+    margin-left: -157px;
+    margin-top: -30px;
+    font-size: 40px;
+  }
+
+  .send{
+    margin-left: -255px;
+    margin-top: -480px;
+    width: 40px;
+    height: 25px;
+    font-size: 10px;
+  }
+
+  .from{
+
+    font-size: 15px;
+  }
+
+  .italic{
+    font-size: 8px;
+  }
+
+  .by{
+    font-size: 13px;
+  }
+
+  .author{
+    font-size: 16px;
+  }
+
+  .subtitile {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .container{
+    margin-top: -400px;
+    margin-left: -10px;
+  }
+
+  .circleone{
+    width: 15px;
+    height: 15px;
+  }
+
+  .circletwo{
+    width: 15px;
+    height: 15px;
+    margin-left: -2px;
+  }
+
+  .circlethree{
+    width: 15px;
+    height: 15px;
+    margin-left: -2px;
+  }
+
+  .circlefour{
+    width: 15px;
+    height: 15px;
+    margin-left: -2px;
+  }
+
+  .circlefive{
+    width: 15px;
+    height: 15px;
+    margin-left: -2px;
+  }
+
+  .circlesix{
+    width: 15px;
+    height: 15px;
+    margin-left: -2px;
+  }
+
+  .circleseven{
+    width: 15px;
+    height: 15px;
+    margin-left: -2px;
+  }
+
+  .circleeight{
+    width: 15px;
+    height: 15px;
+    margin-left: -2px;
+  }
+
+  .circlenine{
+    width: 15px;
+    height: 15px;
+    margin-left: -2px;
+  }
 }
