@@ -16,11 +16,11 @@ body {
   .sentenceone {
     display: none;
     position: absolute;
-    top: 50%;
-    left: 680%;
+    bottom: 150%;
+    left: 40%;
     transform: translate(-50%, -50%);
     width: 200px;
-    background-color: #007bff;
+    background-color: #0000ff;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -49,16 +49,17 @@ body {
   .sentencetwo {
     display: none;
     position: absolute;
-    top: 50%;
-    left: 680%;
+   bottom: 550%;
+    left: 180%;
     transform: translate(-50%, -50%);
-    width: 200px;
-    background-color: #007bff;
-    color: #fff;
+    width: 500px;
+    background-color: #fff;
+    color: #0000ff;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 24px;
+    font-weight: 600;
   }
 
   .circletwo {
@@ -82,16 +83,16 @@ body {
   .sentencethree {
     display: none;
     position: absolute;
-    top: 50%;
-    left: 680%;
+   bottom: 700%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    width: 200px;
-    background-color: #007bff;
+    width: 300px;
+    background-color: #3a3a3a;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .circlethree{
@@ -115,16 +116,16 @@ body {
   .sentencefour {
     display: none;
     position: absolute;
-    top: 50%;
-    left: 680%;
+    bottom: 350%;
+    left: 40%;
     transform: translate(-50%, -50%);
     width: 200px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #f99615;
+    color: #0000ff;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .circlefour{
@@ -148,16 +149,17 @@ body {
   .sentencefive {
     display: none;
     position: absolute;
-    top: 50%;
-    left: 680%;
+    bottom: 900%;
+    left: 200%;
     transform: translate(-50%, -50%);
     width: 200px;
-    background-color: #007bff;
+    background-color: #0000ff;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 21px;
+
   }
 
   .circlefive{
@@ -181,12 +183,12 @@ body {
   .sentencesix {
     display: none;
     position: absolute;
-    top: 50%;
-    left: 680%;
+    bottom: 550%;
+    left: 100%;
     transform: translate(-50%, -50%);
     width: 200px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #fff;
+    color: #3a3a3a;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -215,11 +217,11 @@ body {
     display: none;
     position: absolute;
     top: 50%;
-    left: 680%;
+    left: 230%;
     transform: translate(-50%, -50%);
     width: 200px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #3a3a3a;
+    color: #f99615;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
