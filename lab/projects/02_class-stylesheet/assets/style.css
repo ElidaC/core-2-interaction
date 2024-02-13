@@ -2,12 +2,14 @@ html {
     color: rgb(0, 40, 217);
     background-color: rgb(208, 225, 240);
     cursor: url(media/cursor.png), auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Header-title{
     font-family: "bungee", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 25px;
     text-shadow: 2px 2px 5px rgb(51, 120, 170);
 }
 /* unvisited link */
@@ -16,12 +18,12 @@ a:link {
   }
   
   /* visited link */
-  a:visited {
+a:visited {
     color: rgb(244, 131, 1);
   }
   
   /* mouse over link */
-  a:hover {
+a:hover {
     color: rgb(249, 45, 178);
   }
   
@@ -30,26 +32,28 @@ summary{
     font-family: "eight", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
+    margin-top: -60px;
 }
 
 li{
     font-family: "stratum-1-web", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 15px;
 }
 
 .Page{
     margin-left: 20px;
 }
 
-.Page:hover{
-    cursor: url(media/cursor.png), auto;
-}
-
 .Page-header{
     font-family: "eight", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: 20px;
 }
 
 .Fieldset--section{
@@ -63,7 +67,8 @@ li{
     padding: 10px;
     max-width: 600px; /* Set a maximum width if needed */
     margin: auto;
-
+    margin-top: -75px;
+    position: relative;
 }
 
 .Calendar-weekHeader{
@@ -97,12 +102,14 @@ li{
     font-family: "eight", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 14px;
 }
 
 .Fieldset-header{
     font-family: "stratum-1-web", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 20px;
 }
 
 .Fieldset--stylesheet{
@@ -110,4 +117,48 @@ li{
     border: 2px solid rgb(167, 193, 211);
     border-radius: 5px;
     padding: 10px;
+}
+
+.Header{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(227, 239, 248);
+    width: 80%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nav{
+    margin-right: 40px;
+}
+
+.Header-title{
+    margin-left: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Page{
+margin-top: 130px;
+}
+
+.PostList{
+    margin-top: 60px;
+    background-color: rgb(227, 239, 248);
+    width: 65%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.Post{
+    margin-left: 50px;
 }
