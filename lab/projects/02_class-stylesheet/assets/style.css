@@ -148,7 +148,6 @@ li{
 
 .Nav a {
     color: aliceblue;
-    background-color: blue;
 }
 
 .Nav a:hover {
@@ -208,7 +207,7 @@ margin-top: 20px;
     padding: 10px;
     font-size: 15px;
     position: fixed;
-    margin-top: -50px;
+    margin-top: 150px;
 }
 
 
