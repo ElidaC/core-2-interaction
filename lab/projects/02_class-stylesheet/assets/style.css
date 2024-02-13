@@ -132,6 +132,7 @@ li{
 
 .Nav{
     margin-right: 20px;
+    display: flex;
 }
 
 .Nav-item{
@@ -207,7 +208,7 @@ margin-top: 20px;
     padding: 10px;
     font-size: 15px;
     position: fixed;
-    margin-top: 150px;
+    margin-top: -100px;
 }
 
 
