@@ -148,6 +148,7 @@ li{
 
 .Nav a {
     color: aliceblue;
+    background-color: blue;
 }
 
 .Nav a:hover {
@@ -156,10 +157,6 @@ li{
 
 .Nav a:visited{
     color:rgb(249, 45, 178);
-}
-
-button{
-    background-color: blue;
 }
 
 .Nav-item :hover{
@@ -211,6 +208,7 @@ margin-top: 20px;
     padding: 10px;
     font-size: 15px;
     position: fixed;
+    margin-top: -50px;
 }
 
 
