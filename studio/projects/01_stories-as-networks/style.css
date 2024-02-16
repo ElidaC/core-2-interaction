@@ -1,3 +1,28 @@
+html{
+  font-size: 24px;
+}
+
+.left{
+  font-size: 0.55rem;
+  font-weight: 600;
+  width: 220px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+}
+
+.right{
+  font-size: 0.55rem;
+  font-weight: 600;
+  width: 220px;
+  margin-left: 60px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgb(238, 244, 250);
+  border-radius: 15px;
+}
+
 body {
   font-family: "source-code-pro", monospace;
     background-color: #f7f7f7;
@@ -192,19 +217,24 @@ opacity: 0.2;
 
   .popup {
     width: 200px;
+    height: 190px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding: 20px;
     display: none; /* Hide the pop-up initially */
     position: fixed;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   .popup.active {
     display: block; /* Show the pop-up when active */
+  }
+
+  h3{
+    margin-top: -10px;
   }
 
   #message{
@@ -251,9 +281,27 @@ opacity: 0.2;
     width: 70px;
   }
 
+  .fade {
+      opacity: 0;
+      transition: opacity 4s ease; /* Add a smooth transition */
+  }
+  
+  .fade.active {
+      opacity: 1;
+  }
+
+  #choiceButtons{
+    margin-left: 85px;
+    background-color: #f7f7f7;
+  }
+  
 
 
   @media screen and (max-width: 375px) {
+
+  html{
+    background-color: #f7f7f7;
+  }
 
   .phone{
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
@@ -267,3 +315,4 @@ opacity: 0.2;
     left: 83%;
   }
 }
+
