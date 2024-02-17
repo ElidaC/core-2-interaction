@@ -75,6 +75,24 @@ display: inline;
     }
   }
 
+#line{
+  vertical-align:super;
+    animation: shiny 1s infinite;
+    margin-top: -44px;
+    margin-left: 150px;
+}
+
+@keyframes shiny{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
 .sentence{
 opacity: 0.2;
 }
@@ -209,10 +227,16 @@ opacity: 0.2;
 
 
 
-  img{
+ #arrow{
     position: absolute;
     bottom: 10%;
     left: 59%;
+    width: 40px;
+  }
+
+  .send{
+    position: relative;
+    margin: 20px;
   }
 
   .popup {
@@ -290,11 +314,30 @@ opacity: 0.2;
       opacity: 1;
   }
 
+  .icon{
+    margin-left: 250px;
+    margin-top: 60px;
+  }
+
   #choiceButtons{
     margin-left: 85px;
     background-color: #f7f7f7;
   }
   
+
+  .unlockBox {
+    font-size: 0.55rem;
+  font-weight: 600;
+  width: 220px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+}
+
+#contentAfterUnlock {
+    display: none;
+}
 
 
   @media screen and (max-width: 375px) {

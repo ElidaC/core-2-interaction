@@ -46,3 +46,25 @@ function choose(option) {
         // Display an error message or take appropriate action
     }
 }
+
+function checkUnlock() {
+    var input = document.getElementById('unlockInput').value.toLowerCase(); // Convert input to lowercase
+    if (input === 'semicolon') { // Change 'correctcode' to the actual correct word
+        document.getElementById('unlockScreen').style.display = 'none'; // Hide the unlock screen
+        showAllContent(); // Call a function to show all content blocks
+        console.log("Unlock successful. All content is now visible.");
+    } else {
+        alert('Incorrect code. Please try again.'); // You can replace this with a more stylish error message
+    }
+}
+
+function showAllContent() {
+    var contentBlocks = document.querySelectorAll('.fade[id^="contentAfterUnlock"]');
+    contentBlocks.forEach(function(block) {
+        block.style.display = 'block'; // Show each content block
+    });
+}
+
+
+
+
