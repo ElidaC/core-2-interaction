@@ -340,7 +340,7 @@ opacity: 0.2;
 }
 
 
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 430px) {
 
   html{
     background-color: #f7f7f7;
@@ -355,7 +355,7 @@ opacity: 0.2;
     }
 
     #arrow{
-      left: 80%;
+      left: 75%;
     }
 
 
