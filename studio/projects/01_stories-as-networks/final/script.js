@@ -11,6 +11,10 @@ function isInViewport(element) {
     return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
 }
 
+
+
+
+
 // Function to add active class to elements when they come into view
 function fadeInOnScroll() {
     const elements = document.querySelectorAll('.fade');
@@ -30,13 +34,21 @@ fadeInOnScroll();
 
 
 
+
+
+
+
+
 function choose(option) {
     var choiceSpan = document.getElementById('choice');
     var choiceButtons = document.getElementById('choiceButtons');
+    var arrowContainer = document.getElementById('arrowContainer'); // New line to get the arrow container
+
     if (option === 'love') {
         choiceSpan.innerText = 'love';
         document.querySelector('.right font').innerHTML = "And poets <span id='choice'>love</span> possibility!";
         choiceButtons.style.display = 'none'; // Hide the choice buttons after making a choice
+        arrowContainer.style.display = 'block'; // Show the arrow container
         console.log("You chose to love possibility. You may continue scrolling.");
     } else if (option === 'hate') {
         console.error("You chose to hate possibility. That's not allowed.");
@@ -46,6 +58,13 @@ function choose(option) {
         // Display an error message or take appropriate action
     }
 }
+
+
+
+
+
+
+
 
 function checkUnlock() {
     var input = document.getElementById('unlockInput').value.toLowerCase(); // Convert input to lowercase
