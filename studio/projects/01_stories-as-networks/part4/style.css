@@ -212,32 +212,42 @@ a:hover{
     font-size: 120px;
   }
 
-
-.left{
+  .left{
+    font-size: 0.55rem;
     font-weight: 600;
-    width: 320px;
+    width: 220px;
     padding: 10px;
     margin-top: 30px;
+    background-color: #f7f7f7;
     border-radius: 15px;
   }
   
   .right{
+    font-size: 0.55rem;
     font-weight: 600;
-    width: 320px;
+    width: 220px;
     margin-left: 60px;
     padding: 10px;
     margin-top: 30px;
+    background-color: rgb(238, 244, 250);
     border-radius: 15px;
-    margin-left: 180px;
   }
-
-  .phone {
-    background-color: #fff;
-    border-radius: 45px;
-    box-shadow: 0 0 15px rgba(38, 38, 38, 0.9);
-    padding: 20px;
-    max-width: 500px;
-    width: 100%;
-    overflow: auto; /* Enable scrolling */
-    height: 100%;
-  }
+  
+  body {
+    font-family: "source-code-pro", monospace;
+      background-color: #f7f7f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .phone {
+      background-color: #fff;
+      border-radius: 45px;
+      box-shadow: 0 0 15px rgba(38, 38, 38, 0.9);
+      padding: 20px;
+      max-width: 300px;
+      width: 100%;
+      overflow: auto; /* Enable scrolling */
+      height: 90vh;
+    }
