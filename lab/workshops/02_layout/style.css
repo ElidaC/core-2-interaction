@@ -1,0 +1,70 @@
+.Group{
+    background-color: rgb(101, 245, 197);
+    border: 1px solid #0000ff;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 200px;
+
+    /*Flex*/
+    display: flex;
+    gap: 10px;
+}
+
+
+.GroupFour,
+.GroupFive,
+.GroupSix{
+    flex-direction: column;
+}
+
+/* (command /) */
+/* short cut to change all "start" to "end" - command+option+L */
+.GroupOne{
+    justify-content: start;
+    align-items: start;
+}
+
+.GroupTwo{
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupThree{
+    justify-content:end;
+    align-items: end;
+}
+
+
+.GroupFour{
+    justify-content: start;
+    align-items: start;
+}
+
+.GroupFive{
+    justify-content: center;
+    align-items: center;
+}
+
+.GroupSix{
+    justify-content: end;
+    align-items: end;
+}
+
+.GroupSeven{
+    justify-content: center;
+    align-items: start;
+}
+
+.Classmate{
+    background-color: azure;
+    border: 2px solid orangered;
+    padding: 10px;
+}
+
+/* my clothes */
+#Brianna{
+    display: flex;
+    gap: 10px;
+    align-self: end;
+    flex-direction: column;
+}

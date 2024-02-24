@@ -1,0 +1,45 @@
+.Main{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.Group{
+    background-color: rgb(16, 41, 97);
+    border: 2px solid rgb(255, 0, 208);
+    padding: 10px;
+
+    /* grid */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Group One */
+/* apply to all columns - grid-column-end:-1 */
+.GroupOne{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* classmate */
+.Classmate{
+    background-color: rgb(228, 220, 228);
+    border: 2px solid rgb(47, 255, 255);
+    padding: 10px;
+    color: rgb(255, 0, 208);
+}
+
+
+#Elida{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    /* flex */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
