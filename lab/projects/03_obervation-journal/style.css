@@ -142,6 +142,13 @@ padding: 10px;
   background-color: #ff00d0;
 }
 
+.rectangle3{
+  width: 1200px;
+  height: 140px;
+  margin-top: -100px;
+  background-color: #ff00d0;
+}
+
 img{
 margin-top: 100px;
 margin-left: 115px;
@@ -180,7 +187,7 @@ box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
 }
 
 .energy{
-    margin-top: 260px;
+  margin-top: 260px;
     margin-left: -300px;
 }
 
@@ -206,6 +213,25 @@ margin-left: 160px;
   margin-left: 480px;
 }
 
+.date3{
+  margin-top: 60px;
+  margin-left: 680px;
+}
+
+.energy3{
+  margin-top: 200px;
+  margin-left: -150px;
+}
+
+.mood3{
+  margin-top: 500px;
+}
+
+.img3{
+  margin-left: 115px;
+  filter: brightness(115%);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+  }
 
 .box1{
     width: 40px;
@@ -282,5 +308,40 @@ margin-left: 160px;
   }
 
   .third:is(:hover, :focus) {
+    filter: grayscale(0%) drop-shadow(0 8px 8px rgba(0, 0, 0, 0.5));
+  }
+
+  .first3{
+    font-size: 3em;
+    filter: grayscale(100%);
+    transition: filter 450ms ease;
+    margin-left: -240px;
+    background-color: #ff00d0;
+    
+  }
+  
+  .first3:is(:hover, :focus) {
+    filter: grayscale(0%) drop-shadow(0 8px 8px rgba(0, 0, 0, 0.5));
+  }
+
+  .second3{
+    font-size: 3em;
+    filter: grayscale(100%);
+    transition: filter 450ms ease;
+    background-color: #ff00d0;
+  }
+
+  .second3:is(:hover, :focus) {
+    filter: grayscale(0%) drop-shadow(0 8px 8px rgba(0, 0, 0, 0.5));
+  }
+
+  .third3{
+    font-size: 3em;
+    filter: grayscale(100%);
+    transition: filter 450ms ease;
+    background-color: #ff00d0;
+  }
+
+  .third3:is(:hover, :focus) {
     filter: grayscale(0%) drop-shadow(0 8px 8px rgba(0, 0, 0, 0.5));
   }
