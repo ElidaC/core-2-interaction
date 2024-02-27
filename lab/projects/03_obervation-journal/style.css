@@ -15,6 +15,7 @@
   }
 
   main {
+    margin-top: -25px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -58,6 +59,11 @@
     backface-visibility: hidden;
   }
   
+  h4{
+    color: #ff00d0;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
 
 
   
