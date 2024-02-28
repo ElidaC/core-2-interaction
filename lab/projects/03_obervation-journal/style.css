@@ -108,6 +108,12 @@ font-size: 30px;
 writing-mode: vertical-lr; 
 }
 
+.eight{
+  margin-top: -430px;
+}
+
+
+
 h2{
  color: #ff00d0;
  margin-left: -450px;
@@ -181,6 +187,21 @@ box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
     justify-content: space-between;
 }
 
+
+#body8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+#body13{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+
 .date{
     margin-top: 100px;
     margin-left: 760px;
@@ -251,16 +272,44 @@ margin-left: 160px;
   margin-left: -100px;
 }
 
+.date8{
+  margin-left: 520px;
+}
+
+.energy8{
+  margin-left: 80px;
+}
+
+.date11{
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.energy11{
+  margin-left: -25px;
+  margin-top: 200px;
+}
+
 .img3{
   margin-left: 115px;
   filter: brightness(115%);
   box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
   }
 
-  .img5{
-    margin-left: -215px;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
-    }
+.img5{
+  margin-left: -215px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+}
+
+ .img8{
+  margin-left: 315px;
+  filter: brightness(115%);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 1);
+}
+
+#fu{
+  margin-top: 50px;
+}
 
 .box1{
     width: 40px;
@@ -270,8 +319,6 @@ margin-left: 160px;
     margin-top: 20px;
    
 }
-
-
 
 .box2{
     width: 40px;
