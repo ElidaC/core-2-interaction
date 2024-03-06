@@ -1,0 +1,113 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: rgb(163, 210, 205);
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.orange1 {
+  position: absolute;
+  top: 8%;
+  left: 61%;
+  width: 100px;
+  height: 100px;
+  background: rgb(248, 106, 4);
+  border-radius: 50%;
+  box-shadow: -15px -10px 20px rgb(255, 163, 52) inset, 5px 2px 15px rgb(255, 170, 66) inset;
+  background-image: repeating-linear-gradient(223deg, rgba(255, 51, 0, 0.25), rgba(255, 204, 0, 0.25) 1px, transparent 0px, transparent 2px);
+  background-size: 200px;
+  z-index: 100;
+}
+
+.orange2{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgb(248, 106, 4);
+  border-radius: 50%;
+  box-shadow: -15px -10px 20px rgb(255, 163, 52) inset, 5px 2px 15px rgb(255, 170, 66) inset;
+  background-image: repeating-linear-gradient(223deg, rgba(255, 51, 0, 0.25), rgba(255, 204, 0, 0.25) 1px, transparent 0px, transparent 2px);
+  background-size: 200px;
+  z-index: 600;
+}
+
+.computer{
+  position: relative;
+  top: 20%;
+  left: 50%;
+  width: 245px;
+  height: 320px;
+  background-color: rgb(164, 163, 160);
+}
+
+.screen{
+  position: fixed;
+  left: 51.8%;
+  top: 25%;
+      width: 200px;
+      height: 150px;
+      margin: 20px 0;
+      border-radius: 50% / 10%;
+      color: white;
+      text-align: center;
+      text-indent: .1em;
+  background-image: linear-gradient(90deg, black, rgb(49, 49, 49), black);
+  border-radius: 15px;
+}
+
+.screen:before{
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+.keyboard{
+  position: relative;
+  border-bottom: 80px solid rgb(187, 187, 187);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 355px;
+  border-radius: 15px;
+  left: 43.9%;
+  top: 20%;
+  }
+
+  .keyboard2{
+    position: relative;
+    width: 375px;
+    height: 20px;
+    background-color: #808080;
+    left: 44%;
+    top: 19%;
+    border-radius: 5px;
+  }
+
+  .global{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #d0d0d0;
+  }
