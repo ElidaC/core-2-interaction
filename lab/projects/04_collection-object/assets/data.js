@@ -1,4 +1,4 @@
-console.log('\n\nARRAY OF OBJECTS\n\n\n');
+//location and major are two most significant parts
 
 var data = [
     {
