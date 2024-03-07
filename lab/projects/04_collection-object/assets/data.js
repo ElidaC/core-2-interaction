@@ -1,6 +1,6 @@
 //location and major are two most significant parts
 
-var data=[
+var data =[
     {
         buildingName: 'University Center',
         vibe: 'cozy',
