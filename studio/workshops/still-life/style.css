@@ -111,3 +111,37 @@ body {
     height: 100px;
     background-color: #d0d0d0;
   }
+
+
+  .bottle {
+    position: absolute;
+    right: 16%;
+    top: 60%;
+    width: 190px;
+    height: 200px;
+    border-radius: 20px;
+    background-image: radial-gradient(circle at 40% 20%, white 0.5%,rgb(217, 217, 217,0));
+    opacity: 80%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.bottle-neck{
+position: absolute;
+right: 20%;
+top: 45%;
+width: 90px;
+height: 110px;
+background-image: radial-gradient(circle at 40% 90%, white 0.5%,rgb(217, 217, 217,0));
+opacity: 40%;
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.cork {
+border-bottom: 6vw solid rgb(106, 54, 5); 
+right: 20.9%;
+top: 40%;
+height: 0;
+width: 70px; 
+position: absolute;
+}
