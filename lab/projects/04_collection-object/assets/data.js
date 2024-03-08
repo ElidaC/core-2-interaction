@@ -145,4 +145,10 @@ var data =[
         size: 'big',
         major: 'architecture',
     },
+    {
+        buildingName: 'Mannes',
+        vibe: 'chill',
+        size: 'middle',
+        major: 'deisgn and technology',
+    },
 ];
