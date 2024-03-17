@@ -1,0 +1,11 @@
+.gallery-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.gallery-item {
+    display: inline-block;
+}
+.gallery-item img {
+    width: 10%;
+    height: 10%;
+}
