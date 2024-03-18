@@ -20,6 +20,23 @@ function insertTote(tote) {
 		`;
 	});
 
+	//add buttons for each tote
+	tote.majors.forEach((major) => {
+        const button = document.createElement("button");
+        button.textContent = major;
+
+		button.classList.add("button");
+        // Add an event listener or any other functionality you want for the button
+        // For example, if you want to console log the selected major when the button is clicked:
+        button.addEventListener("click", () => {
+            console.log(major);
+        });
+
+        // Append the button to the container element
+        containerElement.appendChild(button);
+    });
+
+
 }
 
 // get a random number btwn 0 - index

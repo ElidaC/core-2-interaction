@@ -1,7 +1,31 @@
+*{
+	background-color: rgb(225, 225, 225);
+}
+
 .Tote img {
 	max-width: 50%;
 }
 
 .Item img {
 	max-width: 20%;
+}
+
+/* Style for the buttons */
+.button {
+    /* Add your desired styles */
+    background-color: orangered; 
+	color: aquamarine;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+/* Hover effect for the buttons */
+.button:hover {
+    background-color: #c8f926;
+	color: rgb(55, 55, 55);
 }
