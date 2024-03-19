@@ -7,14 +7,14 @@
 }
 
 .Item img {
-	max-width: 20%;
+	max-width: 30%;
 }
 
 
 .Item {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 7fr)); 
-    gap: 10px; 
+    gap: 20px;
+    grid-template-columns: 1fr 1fr ;
 }
 
 /* Style for the buttons */
