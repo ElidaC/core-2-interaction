@@ -1,282 +1,335 @@
 var totes = [
     {
-        image: 'tote-1.JPG',
+        image: 'tote1.JPG',
 		majors: ['fashion deisgn', 'philosophy', 'art and culture', 'digital communication'],
 		answer: 0,
 		vibes: ['cozy', 'stylish'],
 		items: [
-			'tote-1_item-1.png',
-			'tote-1_item-2.jpg',
+			'tote1-item1.png',
+			'tote1-item2.png',
+			'tote1-item3.png',
+			'tote1-item4.png',
+			'tote1-item5.png',
 		]
     },
 	{
-        image: 'tote-2.JPG',
+        image: 'tote2.JPG',
 		majors: ['fine art', 'fashion design', 'illustration', 'design and applied art'],
 		answer: 1,
 		vibes: ['energetic', 'cute'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote2-item1.png',
+			'tote2-item2.png',
+			'tote2-item3.png',
 		]
     },
 	{
-        image: 'tote-3.JPG',
+        image: 'tote3.JPG',
 		majors: ['studio art', 'product design', 'strategic design and management', 'fashion design'],
 		answer: 3,
 		vibes: ['casual', 'energetic'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote3-item1.png',
+			'tote3-item2.png',
+			'tote3-item3.png',
+			'tote3-item4.png',
+			'tote3-item5.png',
 		]
     },
 	{
-        image: 'tote-4.JPG',
+        image: 'tote4.JPG',
 		majors: ['strategic design and management', 'psychology', 'culture and media', 'general literature'],
 		answer: 0,
 		vibes: ['casual', 'cozy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote4-item1.png',
+			'tote4-item2.png',
+			'tote4-item3.png',
+			'tote4-item4.png',
+			'tote4-item5.png',
+			'tote4-item6.png',
 		]
     },
 	{
-        image: 'tote-5.JPG',
+        image: 'tote5.JPG',
 		majors: ['design and applied arts', 'illustration', 'journalism', 'creative writing'],
 		answer: 3,
 		vibes: ['cozy', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote5-item1.png',
+			'tote5-item2.png',
 		]
     },
 	{
-        image: 'tote-6.JPG',
+        image: 'tote6.JPG',
 		majors: ['interior design', 'design and techonology', 'graphic design', 'strategic design and management'],
 		answer: 2,
 		vibes: ['casual', 'cozy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote6-item1.png',
+			'tote6-item2.png',
+			'tote6-item3.png',
 		]
     },
 	{
-        image: 'tote-7.JPG',
+        image: 'tote7.JPG',
 		majors: ['interior design', 'fine art', 'product design', 'jazz studies'],
 		answer: 0,
 		vibes: ['vintage', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote7-item1.png',
+			'tote7-item2.png',
+			'tote7-item3.png',
+			'tote7-item4.png',
+			'tote7-item5.png',
+			'tote7-item6.png',
+			'tote7-item7.png',
 		]
     },
 	{
-        image: 'tote-8.JPG',
+        image: 'tote8.JPG',
 		majors: ['communication design', 'general literacture', 'illustration', 'culture and media'],
 		answer: 2,
 		vibes: ['casual', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote8-item1.png',
+			'tote8-item2.png',
+			'tote8-item3.png',
+			'tote8-item4.png',
 		]
     },
 	{
-        image: 'tote-9.JPG',
+        image: 'tote9.JPG',
 		majors: ['design history and practice', 'communication design', 'photography', 'film studies'],
 		answer: 1,
 		vibes: ['casual', 'vintage'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote9-item1.png',
+			'tote9-item2.png',
+			'tote9-item3.png',
 		]
     },
 	{
-        image: 'tote-10.JPG',
+        image: 'tote10.JPG',
 		majors: ['design and technology', 'culture and media', 'general literature','product design'],
 		answer: 3,
 		vibes: ['artsy', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote10-item1.png',
+			'tote10-item2.png',
+			'tote10-item3.png',
 		]
     },
 	{
-        image: 'tote-11.JPG',
+        image: 'tote11.JPG',
 		majors: ['communication design', 'design and applied art', 'theater art', 'appeal design'],
 		answer: 0,
 		vibes: ['cozy', 'cute'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote11-item1.png',
+			'tote11-item2.png',
+			'tote11-item3.png',
 		]
     },
 	{
-        image: 'tote-12.JPG',
+        image: 'tote12.JPG',
 		majors: ['illustration', 'communication design', 'studio art', 'product design'],
 		answer: 1,
 		vibes: ['artsy', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote12-item1.png',
+			'tote12-item2.png',
+			'tote12-item3.png',
+			'tote12-item4.png',
 		]
     },
 	{
-        image: 'tote-13.JPG',
+        image: 'tote13.JPG',
 		majors: ['design and techonology', 'general literature', 'music theory', 'psychology'],
 		answer: 0,
 		vibes: ['casual', 'vintage'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote13-item1.png',
+			'tote13-item2.png',
+			'tote13-item3.png',
+			'tote13-item4.png',
 		]
     },
 	{
-        image: 'tote-14.JPG',
+        image: 'tote14.JPG',
 		majors: ['design history and practice', 'creative writing', 'global studies', 'journalism'],
 		answer: 2,
 		vibes: ['cozy', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote14-item1.png',
+			'tote14-item2.png',
 		]
     },
 	{
-        image: 'tote-15.JPG',
+        image: 'tote15.JPG',
 		majors: ['philosophy', 'strategic design and management', 'environmental studies', 'communication design'],
 		answer: 3,
 		vibes: ['casual', 'vintage'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote15-item1.png',
+			'tote15-item2.png',
+			'tote15-item3.png',
+			'tote15-item4.png',
+			'tote15-item5.png',
+			'tote15-item6.png',
+			'tote15-item7.png',
+			'tote15-item8.png',
 		]
     },
 	{
-        image: 'tote-16.JPG',
+        image: 'tote16.JPG',
 		majors: ['fine art', 'design history and practice', 'drama arts', 'fashion design'],
 		answer: 1,
 		vibes: ['vintage', 'artsy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote16-item1.png',
+			'tote16-item2.png',
+			'tote16-item3.png',
 		]
     },
 	{
-        image: 'tote-17.JPG',
+        image: 'tote17.JPG',
 		majors: ['strategic design and management', 'creative writing', 'culture and media','design history and practice'],
 		answer: 2,
 		vibes: ['cozy', 'vintage'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote17-item1.png',
+			'tote17-item2.png',
+			'tote17-item3.png',
 		]
     },
 	{
-        image: 'tote-18.JPG',
+        image: 'tote18.JPG',
 		majors: ['communication design', 'deisgn and technology', 'photography', 'product design'],
 		answer: 2,
 		vibes: ['casual', 'cozy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote18-item1.png',
+			'tote18-item2.png',
+			'tote18-item3.png',
 		]
     },
 	{
-        image: 'tote-19.JPG',
+        image: 'tote19.JPG',
 		majors: ['drama', 'fashion design', 'studio art management', 'fine art'],
 		answer: 3,
 		vibes: ['stylish', 'artsy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote19-item1.png',
+			'tote19-item2.png',
+			'tote19-item3.png',
 		]
     },
 	{
-        image: 'tote-20.JPG',
+        image: 'tote20.JPG',
 		majors: ['communication design', 'strategic design and management', 'fashion design', 'interior design'],
 		answer: 2,
 		vibes: ['casual', 'cozy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote20-item1.png',
+			'tote20-item2.png',
+			'tote20-item3.png',
+			'tote20-item4.png',
 		]
     },
 	{
-        image: 'tote-21.JPG',
+        image: 'tote21.JPG',
 		majors: ['music performance', 'fashion design', 'media studies', 'jazz studies'],
 		answer: 1,
 		vibes: ['energetic', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote21-item1.png',
+			'tote21-item2.png',
+			'tote21-item3.png',
+			'tote21-item4.png',
+			'tote21-item5.png',
 		]
     },
 	{
-        image: 'tote-22.JPG',
+        image: 'tote22.JPG',
 		majors: ['design and applied art', 'strategic design and management', 'illustration', 'communication'],
 		answer: 1,
 		vibes: ['casual', 'cozy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote22-item1.png',
+			'tote22-item2.png',
+			'tote22-item3.png',
+			'tote22-item4.png',
 		]
     },
 	{
-        image: 'tote-23.JPG',
+        image: 'tote23.JPG',
 		majors: ['design and applied art', 'product design', 'design and technology', 'fine art'], 
 		answer: 3,
 		vibes: ['casual', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote23-item1.png',
+			'tote23-item2.png',
+			'tote23-item3.png',
 		]
     },
 	{
-        image: 'tote-24.JPG',
+        image: 'tote24.JPG',
 		majors: ['design and technology', 'illustration', 'music performance', 'theater arts'],
 		answer: 0,
 		vibes: ['cute', 'cozy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote24-item1.png',
+			'tote24-item2.png',
+			'tote24-item3.png',
+			'tote24-item4.png',
 		]
     },
 	{
-        image: 'tote-25.JPG',
+        image: 'tote25.JPG',
 		majors: ['communication design', 'psychology', 'product design', 'photography'],
 		answer: 1,
 		vibes: ['energetic', 'cozy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote25-item1.png',
+			'tote25-item2.png',
+			'tote25-item3.png',
 		]
     },
 	{
-        image: 'tote-26.JPG',
+        image: 'tote26.JPG',
 		majors: ['photography', 'interior design', 'architecture', 'studio art'],
 		answer: 2,
 		vibes: ['casual', 'energetic'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote26-item1.png',
+			'tote26-item2.png',
+			'tote26-item3.png',
+			'tote26-item4.png',
 		]
     },
 	{
-        image: 'tote-27.JPG',
+        image: 'tote27.JPG',
 		majors: ['global studies', 'communication design', 'culture and media', 'design history and practice'],
 		answer: 1,
 		vibes: ['casual', 'cozy'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote27-item1.png',
+			'tote27-item2.png',
+			'tote27-item3.png',
+			'tote27-item4.png',
 		]
     },
 	{
-        image: 'tote-28.JPG',
+        image: 'tote28.JPG',
 		majors: ['design and applied art', 'interior design', 'fine art', 'illustration'],
 		answer: 3,
 		vibes: ['artistic', 'stylish'],
 		items: [
-			'tote-2_item-1.jpg',
-			'tote-2_item-2.png',
+			'tote28-item1.png',
+			'tote28-item2.png',
+			'tote28-item3.png',
+			'tote28-item4.png',
 		]
     },
 ];

@@ -10,6 +10,13 @@
 	max-width: 20%;
 }
 
+
+.Item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 7fr)); 
+    gap: 10px; 
+}
+
 /* Style for the buttons */
 .button {
     /* Add your desired styles */
