@@ -39,6 +39,12 @@ function insertTote(tote) {
 
 }
 
+
+var randomButton = document.getElementById('randomButton');
+
+
+// Add an event listener to the button
+randomButton.addEventListener('click', function() {
 // get a random number btwn 0 - index
 var randomFloat = Math.random() * totes.length;
 var randomInt = Math.floor(randomFloat);
@@ -46,3 +52,5 @@ console.log(randomInt);
 
 // run the fn
 insertTote(totes[randomInt]);
+
+});

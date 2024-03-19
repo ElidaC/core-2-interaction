@@ -52,7 +52,7 @@ var totes = [
 	{
         image: 'tote-6.JPG',
 		majors: ['interior design', 'design and techonology', 'graphic design', 'strategic design and management'],
-		answer: 1,
+		answer: 2,
 		vibes: ['casual', 'cozy'],
 		items: [
 			'tote-2_item-1.jpg',
@@ -71,7 +71,7 @@ var totes = [
     },
 	{
         image: 'tote-8.JPG',
-		majors: ['communication design', 'general literacture', 'strategic design and management', 'culture and media'],
+		majors: ['communication design', 'general literacture', 'illustration', 'culture and media'],
 		answer: 2,
 		vibes: ['casual', 'stylish'],
 		items: [
@@ -221,7 +221,7 @@ var totes = [
     },
 	{
         image: 'tote-23.JPG',
-		majors: ['design and applied art', 'product design', 'design and technology', 'communication design'], 
+		majors: ['design and applied art', 'product design', 'design and technology', 'fine art'], 
 		answer: 3,
 		vibes: ['casual', 'stylish'],
 		items: [
@@ -241,7 +241,7 @@ var totes = [
     },
 	{
         image: 'tote-25.JPG',
-		majors: ['communication design', 'photography', 'product design', 'photography'],
+		majors: ['communication design', 'psychology', 'product design', 'photography'],
 		answer: 1,
 		vibes: ['energetic', 'cozy'],
 		items: [
