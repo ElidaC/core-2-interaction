@@ -248,6 +248,7 @@ var totes = [
 			'tote21-item3.png',
 			'tote21-item4.png',
 			'tote21-item5.png',
+			'tote21-item6.png',
 		]
     },
 	{
@@ -330,6 +331,20 @@ var totes = [
 			'tote28-item2.png',
 			'tote28-item3.png',
 			'tote28-item4.png',
+		]
+    },
+	{
+        image: 'tote29.JPG',
+		majors: ['culture and media', 'fashion design', 'illustration', 'strategic design and management'],
+		answer: 1,
+		vibes: ['casual', 'stylish'],
+		items: [
+			'tote29-item1.png',
+			'tote29-item2.png',
+			'tote29-item3.png',
+			'tote29-item4.png',
+			'tote29-item5.png',
+			'tote29-item6.png',
 		]
     },
 ];

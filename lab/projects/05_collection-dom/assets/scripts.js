@@ -4,6 +4,9 @@ var containerElement = document.querySelector('main');
 // Define the insert function with a parameter.
 function insertTote(tote) {
 
+	// empty the container element
+containerElement.innerHTML = '';
+
 	// Update this to your match your collection's metadata.
 	containerElement.innerHTML += `
 		<div class="Tote">
