@@ -92,9 +92,9 @@ function setBackgroundByVibe(vibes) {
         case 'cute':
             return '#B0F1DE'; 
         case 'energetic':
-            return '#22A48C'; 
-        case 'casual':
             return '#E4CCFF'; 
+        case 'casual':
+            return '#07493d'; 
         case 'vintage':
             return 'rgb(225, 225, 225)'; 
         default:

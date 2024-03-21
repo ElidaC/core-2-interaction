@@ -374,5 +374,13 @@
 }
 
 h3{
+    margin-bottom: 20px;
+}
+
+.two h3{
+    margin-top: -20px;
+}
+
+.three h3{
     margin-top: -20px;
 }
