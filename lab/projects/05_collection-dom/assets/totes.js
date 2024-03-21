@@ -347,4 +347,16 @@ var totes = [
 			'tote29-item6.png',
 		]
     },
+	{
+        image: 'tote30.JPG',
+		majors: ['fashion design', 'film studies', 'interior design', 'design and applied art'],
+		answer: 2,
+		vibes: ['artisric', 'stylish'],
+		items: [
+			'tote30-item1.png',
+			'tote30-item2.png',
+			'tote30-item3.png',
+			'tote30-item4.png',
+		]
+    },
 ];
