@@ -325,7 +325,7 @@ var totes = [
         image: 'tote28.JPG',
 		majors: ['design and applied art', 'interior design', 'fine art', 'illustration'],
 		answer: 3,
-		vibes: ['stylish'],
+		vibes: ['cozy'],
 		items: [
 			'tote28-item1.png',
 			'tote28-item2.png',
