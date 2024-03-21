@@ -120,7 +120,7 @@ function drop(ev) {
     var draggedItem = document.getElementById(data);
     var tote = document.querySelector('.Tote');
 
-    if (data === 'item2' || data === 'item3') {
+    if (data === 'item1' || data === 'item2' || data === 'item3') {
         tote.appendChild(draggedItem);
         draggedItem.style.position = 'absolute';
         draggedItem.style.top = (ev.clientY - tote.getBoundingClientRect().top - draggedItem.clientHeight / 2) + 'px';
