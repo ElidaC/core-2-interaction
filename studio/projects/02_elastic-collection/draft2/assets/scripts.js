@@ -104,3 +104,29 @@ function setBackgroundByVibe(vibes) {
 
 
 
+//--------------------------------------------------------
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    var draggedItem = document.getElementById(data);
+    var tote = document.querySelector('.Tote');
+
+    if (data === 'item2' || data === 'item3') {
+        tote.appendChild(draggedItem);
+        draggedItem.style.position = 'absolute';
+        draggedItem.style.top = (ev.clientY - tote.getBoundingClientRect().top - draggedItem.clientHeight / 2) + 'px';
+        draggedItem.style.left = (ev.clientX - tote.getBoundingClientRect().left - draggedItem.clientWidth / 2) + 'px';
+    } else {
+        // Do something if other items are dropped
+    }
+}
+
