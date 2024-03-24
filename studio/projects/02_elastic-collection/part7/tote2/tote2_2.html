@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>effect</title>
+	<link rel="stylesheet" href="../assets/effect.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pay8ujd.css">
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: #E4CCFF;
+        }
+        .button1, .button2, .button3, .button4 {
+            background-color: orangered;
+            color: #E4CCFF;
+        }
+        .Buttons a{
+            color: #c8f926;
+        }
+        #h2{
+            color: #07493d;
+            position: absolute;
+            left: 70%;
+            top: 70%;
+            margin-top: 20px;
+        }
+    </style>
+
+
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="../media/tote2.JPG" alt="tote24">
+    </div>
+
+    <div class="Buttons">
+        <div class="button1">
+            <a href="tote2_4.html">
+            fine art
+            </a>
+        </div>
+        <div class="button2">
+            <a href="tote2_3.html">
+            fashion design
+            </a>
+        </div>
+        <div class="button3">
+            <a href="tote2_4.html">
+            illustration
+            </a>
+        </div>
+        <div class="button4">
+            <a href="tote2_4.html">
+            design and applied art
+            </a>
+        </div>
+    </div>
+
+<div id="h2">
+    <h2 align="right">Check the wearer's</h2> 
+    <h2 align="right">Pinterest page by dragging</h2>
+    <h2 align="right">images into the bag</h2>
+    </div>
+
+    <div class="Item">
+        <img src="../media/tote2-item1.png" draggable="true" id="item1" ondragstart="drag(event)">
+        <img src="../media/tote2-item2.png" draggable="true" id="item2" ondragstart="drag(event)">
+        <img src="../media/tote2-item3.png" draggable="true" id="item3" ondragstart="drag(event)">
+    </div>
+
+<script src="../assets/scripts.js"></script>
+<script src="../assets/totes.js"></script>
+</body>
+</html>
