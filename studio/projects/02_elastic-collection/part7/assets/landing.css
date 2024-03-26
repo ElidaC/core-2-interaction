@@ -167,3 +167,26 @@ a {
     top: 5%;
     left: -10%;
   }
+
+
+#gallery {
+  margin-left: 30px;
+  -webkit-column-count:5;
+  -moz-column-count:5;
+  column-count:5;
+  
+  -webkit-column-gap:20px;
+  -moz-column-gap:20px;
+  column-gap:20px;
+}
+
+#gallery img {
+    max-width:  80%; /* Set the width of each image */
+    height: auto;
+    margin: 10px 0; /* Add vertical margin */
+    box-shadow: -3px 5px 15px #000;
+    cursor: pointer;
+}
+
+
+
