@@ -216,7 +216,7 @@ var totes = [
     },
 	{
         image: 'tote19.JPG',
-		majors: ['drama', 'fashion design', 'studio art management', 'fine art'],
+		majors: ['drama art', 'fashion design', 'studio art management', 'fine art'],
 		answer: 3,
 		vibes: ['stylish'],
 		items: [
@@ -253,7 +253,7 @@ var totes = [
     },
 	{
         image: 'tote22.JPG',
-		majors: ['design and applied art', 'strategic design and management', 'illustration', 'communication'],
+		majors: ['design and applied art', 'strategic design and management', 'illustration', 'communication design'],
 		answer: 1,
 		vibes: ['casual'],
 		items: [
@@ -357,6 +357,17 @@ var totes = [
 			'tote30-item2.png',
 			'tote30-item3.png',
 			'tote30-item4.png',
+		]
+    },
+	{
+        image: 'tote31.JPG',
+		majors: ['fashion design', 'fine art', 'illustration', 'graphic design'],
+		answer: 1,
+		vibes: ['cute'],
+		items: [
+			'tote31-item1.png',
+			'tote31-item2.png',
+			'tote31-item3.png',
 		]
     },
 ];
