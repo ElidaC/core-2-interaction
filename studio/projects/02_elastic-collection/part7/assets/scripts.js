@@ -83,7 +83,6 @@ insertTote(totes[randomInt]);
 
 // Function to set background color based on vibe
 function setBackgroundByVibe(vibes) {
-    // 根据不同的 vibe 返回不同的背景颜色
     switch (vibes) {
         case 'cozy':
             return 'orangered'; 
@@ -98,7 +97,7 @@ function setBackgroundByVibe(vibes) {
         case 'vintage':
             return 'rgb(225, 225, 225)'; 
         default:
-            return ''; // 默认背景颜色
+            return ''; 
     }
 }
 
@@ -126,7 +125,7 @@ function drop(ev) {
         draggedItem.style.top = (ev.clientY - tote.getBoundingClientRect().top - draggedItem.clientHeight / 2) + 'px';
         draggedItem.style.left = (ev.clientX - tote.getBoundingClientRect().left - draggedItem.clientWidth / 2) + 'px';
     } else {
-        // Do something if other items are dropped
+        
     }
 }
 
