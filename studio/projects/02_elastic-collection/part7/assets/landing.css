@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #EBFF00; 
+    background-color:rgb(225, 225, 225); 
 }
 
 a {
@@ -70,14 +70,7 @@ a {
     100% { transform: scale(1); opacity: 0; }
 }
 
-.background {
-    position: absolute;
-    top: 0;
-    background-color: rgb(230, 230, 230);
-    width: 100%;
-    height: 100vh;
-    z-index: 100; 
-}
+
 
 
   .question {
@@ -105,18 +98,20 @@ a {
   }
 
   .start{
+    background-color: #c8f926;
     display: flex;
     justify-content: center; 
     align-items: center;
     color: black;
-    border: 3px solid #22A48C;
+    border: 5px solid #22A48C;
     border-radius: 40%;
-    width: 10vw;
-    height: 5vh;
+    width: 20vw;
+    height: 8vh;
     font-family: "bely-display", sans-serif;
     font-weight: 200;
     font-style: normal;
   }
+
 
   .p1{
     position: absolute;
@@ -190,3 +185,123 @@ a {
 
 
 
+button {
+  background: transparent;
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  padding: 0.8rem 2rem;
+  font: 24px "Margarine", sans-serif;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s ease-in-out;
+  letter-spacing: 2px;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 3rem;
+  font: 500 14px 'Rubik', sans-serif;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+.button__wrapper {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-pulse {
+  button {
+    background: var(--bg-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .button__wrapper:hover .pulsing {
+    &:before {
+      animation: pulsing 0.2s linear infinite;
+    }
+    &:after {
+      animation: pulsing1 0.2s linear infinite;
+    }
+  }
+}
+
+.pulsing {
+  width: 99%;
+  height: 99%;
+  border-radius: 50px;
+  z-index: 1;
+  position: relative;
+
+  &:before,
+  &:after {
+    width: 100%;
+    height: 100%;
+    border: inherit;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: #fff;
+    border-radius: inherit;
+    animation: pulsing 2.5s linear infinite;
+  }
+  &:after {
+    animation: pulsing1 2.5s linear infinite;
+  }
+}
+
+@keyframes pulsing {
+  0% {
+    opacity: 1;
+    transform: scaleY(1) scaleX(1);
+  }
+  20% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 0.2;
+    transform: scaleY(1.8) scaleX(1.4);
+  }
+  80% {
+    opacity: 0;
+    transform: scaleY(1.8) scaleX(1.4);
+  }
+  90% {
+    opacity: 0;
+    transform: scaleY(1) scaleX(1);
+  }
+}
+@keyframes pulsing1 {
+  0% {
+    opacity: 1;
+    transform: scaleY(1) scaleX(1);
+  }
+  20% {
+    opacity: 0.5;
+  }
+  70% {
+    opacity: 0.2;
+    transform: scaleY(1.3) scaleX(1.15);
+  }
+  80% {
+    opacity: 0;
+    transform: scaleY(1.3) scaleX(1.15);
+  }
+  90% {
+    opacity: 0;
+    transform: scaleY(1) scaleX(1);
+  }
+}
