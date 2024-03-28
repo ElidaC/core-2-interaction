@@ -23,13 +23,16 @@
         .Item{
             background-color: #E4CCFF;
         }
-        .Item img:hover{
-            max-width: 20%;
+        #h2{
+            color: #c8f926;
+            position: fixed;
+            left: 75%;
+            top: 85%;
         }
     </style>
 
 
-<div class="Tote">
+<div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
     <img src="../media/tote8.JPG" alt="tote8">
 </div>
 
@@ -45,7 +48,7 @@
         </a>
     </div>
     <div class="button3">
-        <a href="tote8_3.html">
+        <a href="tote8_6.html">
         illustration
         </a>
     </div>
@@ -56,13 +59,16 @@
     </div>
 </div>
 
+<div id="h2">
+    <h2 align="right">Drag items into the bag</h2> 
+    </div>
 
     <div class="Item">
-        <img src="../media/tote8-item1.png" >
+        <img src="../media/tote8-item1.png" draggable="true" id="item1" ondragstart="drag(event)" >
         <br>
-        <img src="../media/tote8-item2.png" width="50px">
-        <img src="../media/tote8-item3.png" >
-        <img src="../media/tote8-item4.png" >
+        <img src="../media/tote8-item2.png" width="50px" draggable="true" id="item2" ondragstart="drag(event)">
+        <img src="../media/tote8-item3.png" draggable="true" id="item3" ondragstart="drag(event)">
+        <img src="../media/tote8-item4.png" draggable="true" id="item4" ondragstart="drag(event)">
     </div>
 
 <script src="../assets/scripts.js"></script>

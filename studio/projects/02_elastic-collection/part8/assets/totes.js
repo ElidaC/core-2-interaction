@@ -9,7 +9,6 @@ var totes = [
 			'tote1-item2.png',
 			'tote1-item3.png',
 			'tote1-item4.png',
-			'tote1-item5.png',
 		]
     },
 	{
@@ -255,7 +254,7 @@ var totes = [
         image: 'tote22.JPG',
 		majors: ['design and applied art', 'strategic design and management', 'illustration', 'communication design'],
 		answer: 1,
-		vibes: ['casual'],
+		vibes: ['cozy'],
 		items: [
 			'tote22-item1.png',
 			'tote22-item2.png',
@@ -311,14 +310,14 @@ var totes = [
     },
 	{
         image: 'tote27.JPG',
-		majors: ['global studies', 'communication design', 'culture and media', 'design history and practice'],
-		answer: 1,
-		vibes: ['casual'],
+		majors: ['fashion design', 'film studies', 'interior design', 'design and applied art'],
+		answer: 2,
+		vibes: ['stylish'],
 		items: [
-			'tote27-item1.png',
-			'tote27-item2.png',
-			'tote27-item3.png',
-			'tote27-item4.png',
+			'tote30-item1.png',
+			'tote30-item2.png',
+			'tote30-item3.png',
+			'tote30-item4.png',
 		]
     },
 	{
@@ -349,21 +348,31 @@ var totes = [
     },
 	{
         image: 'tote30.JPG',
-		majors: ['fashion design', 'film studies', 'interior design', 'design and applied art'],
-		answer: 2,
-		vibes: ['stylish'],
+		majors: ['fashion design', 'fine art', 'illustration', 'graphic design'],
+		answer: 1,
+		vibes: ['cute'],
 		items: [
 			'tote30-item1.png',
 			'tote30-item2.png',
 			'tote30-item3.png',
-			'tote30-item4.png',
 		]
     },
 	{
         image: 'tote31.JPG',
-		majors: ['fashion design', 'fine art', 'illustration', 'graphic design'],
-		answer: 1,
-		vibes: ['cute'],
+		majors: ['appeal design', 'film studies', 'photography', 'graphic design'],
+		answer: 2,
+		vibes: ['stylish'],
+		items: [
+			'tote31-item1.png',
+			'tote31-item2.png',
+			'tote31-item3.png',
+		]
+    },
+	{
+        image: 'tote32.JPG',
+		majors: ['photography', 'creative writing', 'strategic design and management', 'communication design'],
+		answer: 3,
+		vibes: ['stylish'],
 		items: [
 			'tote31-item1.png',
 			'tote31-item2.png',

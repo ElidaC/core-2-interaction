@@ -10,7 +10,7 @@
 <body>
 
     <style>
-        body{
+         body{
             background-color: aquamarine;
         }
         .button1, .button2, .button3, .button4 {
@@ -20,58 +20,48 @@
         .Buttons a{
             color: #EBFF00;
         }
-        #h2{
-            color: #22A48C;
-            position: absolute;
-            left: 75%;
-            top: 80%;
-            margin-top: 20px;
+        .rectangle1{
+            background-color: #EBFF00;
+        }
+        .quit{
+            background-color: #E4CCFF;
+        }
+        .quote h3{
+            color: #07493d;
+            
+        }
+        .quote{
+            top: 6%;
+        }
+        .quote h1{
+            margin-top: 0;
+            color: orangered;
         }
     </style>
 
+<div class="quote">
+    <h1>Nice job!</h1>
+    <h3>You nailed it</h3>
+    <h3>on your first try</h3>
+</div>
 
-    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
-        <img src="../media/tote24.JPG" alt="tote24">
-    </div>
-
-    <div class="Buttons">
-        <div class="button1">
-            <a href="tote24_3.html">
-            design and technology
-            </a>
-        </div>
-        <div class="button2">
-            <a href="tote24_4.html">
-            illustration
-            </a>
-        </div>
-        <div class="button3">
-            <a href="tote24_4.html">
-            music performance
-            </a>
-        </div>
-        <div class="button4">
-            <a href="tote24_4.html">
-            theater arts
-            </a>
-        </div>
-    </div>
-
-
-    <div class="Item">
-        <img src="../media/tote24-item1.png" >
-        <img src="../media/tote24-item2.png" >
-        <img src="../media/tote24-item3.png" >
-        <img src="../media/tote24-item4.png" >
-    </div>
-
-    <button id="randomButton">
-        <a href="../tote2/tote2.html">
-            Next Round
+<div class="rectangle1">
+<div class="quit">
+    <button id="home">
+        <a href="../gallery.html">
+        Leave Game
         </a>
     </button>
+</div>
 
-<script src="../assets/scripts.js"></script>
+<button id="randomButton">
+    <a href="../tote2/tote2.html">
+        Next Round
+        </a>
+</button>
+</div>
+
 <script src="../assets/totes.js"></script>
+<script src="../assets/scripts.js"></script>
 </body>
 </html>

@@ -39,18 +39,15 @@
             top: 80%;
             margin-top: 20px;
         }
-        .Item img:hover{
-            max-width: 20%;
-        }
     </style>
 
-    <div class="Tote">
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
         <img src="../media/tote1.JPG" alt="">
     </div>
 
     <div class="Buttons">
         <div class="button1">
-            <a href="tote1_3.html">
+            <a href="tote1_6.html">
             fashion deisgn
             </a>
         </div>
@@ -71,12 +68,15 @@
         </div>
     </div>
 
+    <div id="h2">
+        <h2 align="right">Drag items into the bag</h2> 
+        </div>
+
     <div class="Item">
-        <img src="../media/tote1-item1.png" >
-        <img src="../media/tote1-item2.png" >
-        <img src="../media/tote1-item3.png" >
-        <img src="../media/tote1-item4.png" >
-        <img src="../media/tote1-item5.png" >
+        <img src="../media/tote1-item1.png" draggable="true" id="item1" ondragstart="drag(event)">
+        <img src="../media/tote1-item2.png" draggable="true" id="item2" ondragstart="drag(event)">
+        <img src="../media/tote1-item3.png" draggable="true" id="item3" ondragstart="drag(event)">
+        <img src="../media/tote1-item4.png" draggable="true" id="item4" ondragstart="drag(event)">
     </div>
 
 <script src="../assets/scripts.js"></script>

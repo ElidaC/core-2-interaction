@@ -37,7 +37,7 @@
         }
     </style>
 
-    <div class="Tote" >
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
         <img src="../media/tote9.JPG" alt="tote9">
     </div>
 
@@ -48,7 +48,7 @@
             </a>
         </div>
         <div class="button2">
-            <a href="tote9_3.html">
+            <a href="tote9_6.html">
             communication design
             </a>
         </div>
@@ -64,11 +64,15 @@
         </div>
     </div>
 
+    <div id="h2">
+        <h2 align="right">Drag items into the bag</h2> 
+        </div>
+
     <div class="Item">
-        <img src="../media/tote9-item1.png" >
-        <img src="../media/tote9-item2.png" width="50px">
+        <img src="../media/tote9-item1.png" draggable="true" id="item1" ondragstart="drag(event)">
+        <img src="../media/tote9-item2.png" width="50px" draggable="true" id="item2" ondragstart="drag(event)">
         <br>
-        <img src="../media/tote9-item3.png" width="50px">
+        <img src="../media/tote9-item3.png" width="50px" draggable="true" id="item3" ondragstart="drag(event)">
     </div>
 
 <script src="../assets/scripts.js"></script>

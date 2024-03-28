@@ -7,77 +7,64 @@
 	<link rel="stylesheet" href="../assets/effect.css">
     <link rel="stylesheet" href="https://use.typekit.net/pay8ujd.css">
 </head>
-<body>
+
 
     <style>
         body{
             background-color: rgb(225, 225, 225);
         }
         .button1, .button2, .button3, .button4 {
-            background-color: aquamarine;
-            color: orangered;
+            background-color: orangered;
+            color: #c8f926;
         }
         .Buttons a{
-            color: orangered;
+            color: #c8f926;
         }
-        .button1:hover {
-             background-color: #EBFF00;
+        .quote{
+            top: 8%;
+            color:  orangered;
         }
-        .button2:hover {
-             background-color: #EBFF00;
+        .up, .down{
+            color:  #07493d;
         }
-        .button3:hover {
-             background-color: #EBFF00;
+        .up{
+            left: 3%;
         }
-        .button4:hover {
-             background-color: #EBFF00;
+        .down{
+            right: 3%;
+            bottom: -2%;
         }
-        #h2{
-            position: absolute;
-            bottom: 5%;
-            left: 70%;
-            color: #07493d;
+        .quit{
+            background-color: #c8f926;
+        }
+        .quote h1{
+            margin-top: 0;
         }
     </style>
 
 
+<div class="quote">
+    <h1>Nice job!</h1>
+    <h3>You nailed it</h3>
+    <h3>on your first try</h3>
+</div>
 
-    <div class="Tote" >
-        <img src="../media/tote7.JPG" alt="tote7">
-    </div>
-
-    <div class="Buttons">
-        <div class="button1">
-                interior design
-        </div>
-        <div class="button2">
-            fine art
-        </div>
-        <div class="button3">
-            product design
-        </div>
-        <div class="button4">
-            jazz studies
-        </div>
-    </div>
-
-
-    <div class="Item">
-        <img src="../media/tote7-item1.png" >
-        <img src="../media/tote7-item2.png" >
-        <img src="../media/tote7-item3.png" >
-        <img src="../media/tote7-item4.png" >
-        <img src="../media/tote7-item5.png" >
-        <img src="../media/tote7-item6.png" >
-    </div>
-
-    <button id="randomButton">
-        <a href="../tote11/tote11.html">
-            Next Round
+<div class="rectangle1">
+<div class="quit">
+    <button id="home">
+        <a href="../gallery.html">
+        Leave Game
         </a>
     </button>
+</div>
 
-    <script src="../assets/scripts.js"></script>
-    <script src="../assets/totes.js"></script>
+<button id="randomButton">
+    <a href="../tote11/tote11.html">
+        Next Round
+        </a>
+</button>
+</div>
+
+
 </body>
 </html>
