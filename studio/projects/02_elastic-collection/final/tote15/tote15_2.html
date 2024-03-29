@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>effect</title>
+	<link rel="stylesheet" href="../assets/effect.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pay8ujd.css">
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: rgb(225, 225, 225);
+        }
+        .button1, .button2, .button3, .button4 {
+            background-color: orangered;
+            color: #c8f926;
+        }
+        .Buttons a{
+            color: #c8f926;
+        }
+        #h2{
+            position: absolute;
+            bottom: 5%;
+            left: 70%;
+        }
+        .Item img:hover{
+            max-width: 20%;
+        }
+        .button1:hover{
+            background-color: aquamarine;
+        }
+        .button2:hover{
+            background-color: aquamarine;
+        }
+        .button3:hover{
+            background-color: aquamarine;
+        }
+        .button4:hover{
+            background-color: aquamarine;
+        }
+    </style>
+
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="../media/tote15.JPG" alt="tote15">
+        </div>
+    
+        <div class="Buttons">
+            <div class="button1">
+                <a href="tote15_4.html">
+                philosophy
+                </a>
+            </div>
+            <div class="button2">
+                <a href="tote15_4.html">
+                strategic design and management
+                </a>
+            </div>
+            <div class="button3">
+                <a href="tote15_4.html">
+                environmental studies
+                </a>
+            </div>
+            <div class="button4">
+                <a href="tote15_6.html">
+                communication design
+                </a>
+            </div>
+        </div>
+
+    <div id="h2">
+    <h2 align="right">Drag 4 items being used</h2> 
+    <h2 align="right">most often by the wearer</h2>
+    </div>
+
+    <div class="Item">
+        <img src="../media/tote15-item1.png" draggable="true" id="item1" ondragstart="drag(event)">
+        <img src="../media/tote15-item2.png" draggable="true" ondragstart="drag(event)">
+        <br>
+        <img src="../media/tote15-item3.png" width="50px" draggable="true" ondragstart="drag(event)">
+        <img src="../media/tote15-item4.png" width="50px" draggable="true" id="item2" ondragstart="drag(event)">
+        <img src="../media/tote15-item5.png" draggable="true" id="item3" ondragstart="drag(event)">
+        <img src="../media/tote15-item6.png" width="50px" draggable="true" ondragstart="drag(event)">
+        <img src="../media/tote15-item7.png" width="50px" draggable="true" id="item4" ondragstart="drag(event)">
+        <img src="../media/tote15-item8.png" draggable="true" ondragstart="drag(event)">
+    </div>
+
+<script src="../assets/scripts.js"></script>
+<script src="../assets/totes.js"></script>
+</body>
+</html>

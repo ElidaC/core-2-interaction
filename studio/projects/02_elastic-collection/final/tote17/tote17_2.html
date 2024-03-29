@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>effect</title>
+	<link rel="stylesheet" href="../assets/effect.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pay8ujd.css">
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: rgb(225, 225, 225);
+        }
+        .button1, .button2, .button3, .button4 {
+            background-color: orangered;
+            color: #c8f926;
+        }
+        .Buttons a{
+            color: #c8f926;
+        }
+        .button1:hover{
+            background-color: aquamarine;
+        }
+        .button2:hover{
+            background-color: aquamarine;
+        }
+        .button3:hover{
+            background-color: aquamarine;
+        }
+        .button4:hover{
+            background-color: aquamarine;
+        }
+    </style>
+
+
+
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="../media/tote17.JPG" alt="tote17">
+    </div>
+
+    <div class="Buttons">
+        <div class="button1">
+            <a href="tote17_4.html">
+                strategic design and management
+            </a>
+        </div>
+        <div class="button2">
+            <a href="tote17_4.html">
+            creative writing
+            </a>
+        </div>
+        <div class="button3">
+            <a href="tote17_6.html">
+            culture and media
+            </a>
+        </div>
+        <div class="button4">
+            <a href="tote17_4.html">
+                design history and practice
+            </a>
+        </div>
+    </div>
+    
+    <div id="h2">
+        <h2 align="right">Drag items into the bag</h2> 
+        </div>
+    
+        <div class="Item">
+            <img src="../media/tote17-item1.png" draggable="true" id="item1" ondragstart="drag(event)">
+            <br>
+            <img src="../media/tote17-item2.png" draggable="true" id="item2" ondragstart="drag(event)">
+            <img src="../media/tote17-item3.png" draggable="true" id="item3" ondragstart="drag(event)">
+        </div>
+
+<script src="../assets/scripts.js"></script>
+<script src="../assets/totes.js"></script>
+</body>
+</html>

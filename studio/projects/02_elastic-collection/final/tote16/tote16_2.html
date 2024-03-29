@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>effect</title>
+	<link rel="stylesheet" href="../assets/effect.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pay8ujd.css">
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: rgb(225, 225, 225);
+        }
+        .button1, .button2, .button3, .button4 {
+            background-color: orangered;
+            color: #c8f926;
+        }
+        .Buttons a{
+            color: #c8f926;
+        }
+        #h2{
+            position: absolute;
+            bottom: 5%;
+            left: 70%;
+        }
+    </style>
+
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="../media/tote16.JPG" alt="tote16">
+    </div>
+
+    <div class="Buttons">
+        <div class="button1">
+            <a href="tote16_4.html">
+            fine art
+            </a>
+        </div>
+        <div class="button2">
+            <a href="tote16_6.html">
+            design history and practice
+            </a>
+        </div>
+        <div class="button3">
+            <a href="tote16_4.html">
+            drama art
+            </a>
+        </div>
+        <div class="button4">
+            <a href="tote16_4.html">
+            fashion design
+            </a>
+        </div>
+    </div>
+
+    <div id="h2">
+    <h2 align="right">Drag items on top of the bag</h2> 
+    <h2 align="right">to view the details</h2>
+    </div>
+
+    <div class="Item">
+        <img src="../media/tote16-item1.png" draggable="true" id="item1" ondragstart="drag(event)">
+        <img src="../media/tote16-item2.png" draggable="true" id="item2" ondragstart="drag(event)">
+        <img src="../media/tote16-item3.png" draggable="true" id="item3" ondragstart="drag(event)">
+    </div>
+
+<script src="../assets/scripts.js"></script>
+<script src="../assets/totes.js"></script>
+</body>
+</html>

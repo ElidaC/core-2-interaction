@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>effect</title>
+	<link rel="stylesheet" href="../assets/effect.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pay8ujd.css">
+</head>
+<body>
+
+    <style>
+        body{
+            background-color: rgb(225, 225, 225);
+        }
+        .button1, .button2, .button3, .button4 {
+            background-color: aquamarine;
+            color: orangered;
+        }
+        .Buttons a{
+            color: orangered;
+        }
+        .button1:hover {
+             background-color: #EBFF00;
+        }
+        .button2:hover {
+             background-color: #EBFF00;
+        }
+        .button3:hover {
+             background-color: #EBFF00;
+        }
+        .button4:hover {
+             background-color: #EBFF00;
+        }
+        #h2{
+            position: absolute;
+            bottom: 5%;
+            left: 70%;
+            color: #07493d;
+        }
+    </style>
+
+
+
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="../media/tote7.JPG" alt="tote7">
+    </div>
+
+    <div class="Buttons">
+        <div class="button1">
+            <a href="tote7_6.html">
+                interior design
+            </a>
+        </div>
+        <div class="button2">
+            <a href="tote7_4.html">
+            fine art
+            </a>
+        </div>
+        <div class="button3">
+            <a href="tote7_4.html">
+            product design
+            </a>
+        </div>
+        <div class="button4">
+            <a href="tote7_4.html">
+            jazz studies
+            </a>
+        </div>
+    </div>
+
+    <div id="h2">
+        <h2 align="right">Drag items on top of the bag</h2> 
+        <h2 align="right">to view the details</h2>
+        </div>
+
+    <div class="Item">
+        <img src="../media/tote7-item1.png" draggable="true" id="item1" ondragstart="drag(event)">
+        <img src="../media/tote7-item2.png" draggable="true" id="item2" ondragstart="drag(event)">
+        <img src="../media/tote7-item3.png" draggable="true" id="item3" ondragstart="drag(event)">
+        <img src="../media/tote7-item4.png" draggable="true" id="item4" ondragstart="drag(event)">
+        <img src="../media/tote7-item5.png" draggable="true" id="item5" ondragstart="drag(event)">
+        <img src="../media/tote7-item6.png" draggable="true" id="item6" ondragstart="drag(event)">
+    </div>
+
+    <script src="../assets/scripts.js"></script>
+    <script src="../assets/totes.js"></script>
+</body>
+</html>
