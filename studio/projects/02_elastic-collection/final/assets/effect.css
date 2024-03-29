@@ -415,6 +415,10 @@ h3{
     animation: fadeIn 1s forwards;
 }
 
+.quote h3{
+    animation: fadeIn 1s forwards;
+}
+
 .quote h3:nth-child(2) {
     animation: fadeIn 1s forwards;
     animation-delay: 0.5s; /* 延迟1秒 */
