@@ -9,7 +9,8 @@ var totes = [
 			'tote1-item2.png',
 			'tote1-item3.png',
 			'tote1-item4.png',
-		]
+		],
+		link: '../tote1/tote1.html',
     },
 	{
         image: 'tote2.JPG',
@@ -20,7 +21,8 @@ var totes = [
 			'tote2-item1.png',
 			'tote2-item2.png',
 			'tote2-item3.png',
-		]
+		],
+		link: '../tote2/tote2.html',
     },
 	{
         image: 'tote3.JPG',
@@ -33,7 +35,8 @@ var totes = [
 			'tote3-item3.png',
 			'tote3-item4.png',
 			'tote3-item5.png',
-		]
+		],
+		link: '../tote3/tote3.html',
     },
 	{
         image: 'tote4.JPG',
@@ -47,17 +50,19 @@ var totes = [
 			'tote4-item4.png',
 			'tote4-item5.png',
 			'tote4-item6.png',
-		]
+		],
+		link: '../tote4/tote4.html',
     },
 	{
         image: 'tote5.JPG',
 		majors: ['design and applied arts', 'illustration', 'journalism', 'creative writing'],
-		answer: 3,
+		answer: 1,
 		vibes: ['stylish'],
 		items: [
 			'tote5-item1.png',
 			'tote5-item2.png',
-		]
+		],
+		link: '../tote5/tote5.html',
     },
 	{
         image: 'tote6.JPG',
@@ -68,7 +73,8 @@ var totes = [
 			'tote6-item1.png',
 			'tote6-item2.png',
 			'tote6-item3.png',
-		]
+		],
+		link: '../tote6/tote6.html',
     },
 	{
         image: 'tote7.JPG',
@@ -83,7 +89,8 @@ var totes = [
 			'tote7-item5.png',
 			'tote7-item6.png',
 			'tote7-item7.png',
-		]
+		],
+		link: '../tote7/tote7.html',
     },
 	{
         image: 'tote8.JPG',
@@ -95,7 +102,8 @@ var totes = [
 			'tote8-item2.png',
 			'tote8-item3.png',
 			'tote8-item4.png',
-		]
+		],
+		link: '../tote8/tote8.html',
     },
 	{
         image: 'tote9.JPG',
@@ -106,7 +114,8 @@ var totes = [
 			'tote9-item1.png',
 			'tote9-item2.png',
 			'tote9-item3.png',
-		]
+		],
+		link: '../tote9/tote9.html',
     },
 	{
         image: 'tote10.JPG',
@@ -117,7 +126,8 @@ var totes = [
 			'tote10-item1.png',
 			'tote10-item2.png',
 			'tote10-item3.png',
-		]
+		],
+		link: '../tote10/tote10.html',
     },
 	{
         image: 'tote11.JPG',
@@ -128,7 +138,8 @@ var totes = [
 			'tote11-item1.png',
 			'tote11-item2.png',
 			'tote11-item3.png',
-		]
+		],
+		link: '../tote11/tote11.html',
     },
 	{
         image: 'tote12.JPG',
@@ -140,7 +151,8 @@ var totes = [
 			'tote12-item2.png',
 			'tote12-item3.png',
 			'tote12-item4.png',
-		]
+		],
+		link: '../tote12/tote12.html',
     },
 	{
         image: 'tote13.JPG',
@@ -152,7 +164,8 @@ var totes = [
 			'tote13-item2.png',
 			'tote13-item3.png',
 			'tote13-item4.png',
-		]
+		],
+		link: '../tote13/tote13.html',
     },
 	{
         image: 'tote14.JPG',
@@ -162,7 +175,8 @@ var totes = [
 		items: [
 			'tote14-item1.png',
 			'tote14-item2.png',
-		]
+		],
+		link: '../tote14/tote14.html',
     },
 	{
         image: 'tote15.JPG',
@@ -178,7 +192,8 @@ var totes = [
 			'tote15-item6.png',
 			'tote15-item7.png',
 			'tote15-item8.png',
-		]
+		],
+		link: '../tote15/tote15.html',
     },
 	{
         image: 'tote16.JPG',
@@ -189,7 +204,8 @@ var totes = [
 			'tote16-item1.png',
 			'tote16-item2.png',
 			'tote16-item3.png',
-		]
+		],
+		link: '../tote16/tote16.html',
     },
 	{
         image: 'tote17.JPG',
@@ -200,7 +216,8 @@ var totes = [
 			'tote17-item1.png',
 			'tote17-item2.png',
 			'tote17-item3.png',
-		]
+		],
+		link: '../tote17/tote17.html',
     },
 	{
         image: 'tote18.JPG',
@@ -211,7 +228,8 @@ var totes = [
 			'tote18-item1.png',
 			'tote18-item2.png',
 			'tote18-item3.png',
-		]
+		],
+		link: '../tote18/tote18.html',
     },
 	{
         image: 'tote19.JPG',
@@ -222,7 +240,8 @@ var totes = [
 			'tote19-item1.png',
 			'tote19-item2.png',
 			'tote19-item3.png',
-		]
+		],
+		link: '../tote19/tote19.html',
     },
 	{
         image: 'tote20.JPG',
@@ -234,7 +253,8 @@ var totes = [
 			'tote20-item2.png',
 			'tote20-item3.png',
 			'tote20-item4.png',
-		]
+		],
+		link: '../tote20/tote20.html',
     },
 	{
         image: 'tote21.JPG',
@@ -248,7 +268,8 @@ var totes = [
 			'tote21-item4.png',
 			'tote21-item5.png',
 			'tote21-item6.png',
-		]
+		],
+		link: '../tote21/tote21.html',
     },
 	{
         image: 'tote22.JPG',
@@ -260,7 +281,8 @@ var totes = [
 			'tote22-item2.png',
 			'tote22-item3.png',
 			'tote22-item4.png',
-		]
+		],
+		link: '../tote22/tote22.html',
     },
 	{
         image: 'tote23.JPG',
@@ -271,7 +293,8 @@ var totes = [
 			'tote23-item1.png',
 			'tote23-item2.png',
 			'tote23-item3.png',
-		]
+		],
+		link: '../tote23/tote23.html',
     },
 	{
         image: 'tote24.JPG',
@@ -283,7 +306,8 @@ var totes = [
 			'tote24-item2.png',
 			'tote24-item3.png',
 			'tote24-item4.png',
-		]
+		],
+		link: '../tote24/tote24.html',
     },
 	{
         image: 'tote25.JPG',
@@ -294,7 +318,8 @@ var totes = [
 			'tote25-item1.png',
 			'tote25-item2.png',
 			'tote25-item3.png',
-		]
+		],
+		link: '../tote25/tote25.html',
     },
 	{
         image: 'tote26.JPG',
@@ -306,7 +331,8 @@ var totes = [
 			'tote26-item2.png',
 			'tote26-item3.png',
 			'tote26-item4.png',
-		]
+		],
+		link: '../tote26/tote26.html',
     },
 	{
         image: 'tote27.JPG',
@@ -318,7 +344,8 @@ var totes = [
 			'tote30-item2.png',
 			'tote30-item3.png',
 			'tote30-item4.png',
-		]
+		],
+		link: '../tote27/tote27.html',
     },
 	{
         image: 'tote28.JPG',
@@ -330,7 +357,8 @@ var totes = [
 			'tote28-item2.png',
 			'tote28-item3.png',
 			'tote28-item4.png',
-		]
+		],
+		link: '../tote28/tote28.html',
     },
 	{
         image: 'tote29.JPG',
@@ -344,7 +372,8 @@ var totes = [
 			'tote29-item4.png',
 			'tote29-item5.png',
 			'tote29-item6.png',
-		]
+		],
+		link: '../tote29/tote29.html',
     },
 	{
         image: 'tote30.JPG',
@@ -355,7 +384,8 @@ var totes = [
 			'tote30-item1.png',
 			'tote30-item2.png',
 			'tote30-item3.png',
-		]
+		],
+		link: '../tote30/tote30.html',
     },
 	{
         image: 'tote31.JPG',
@@ -366,7 +396,8 @@ var totes = [
 			'tote31-item1.png',
 			'tote31-item2.png',
 			'tote31-item3.png',
-		]
+		],
+		link: '../tote31/tote31.html',
     },
 	{
         image: 'tote32.JPG',
@@ -374,10 +405,11 @@ var totes = [
 		answer: 3,
 		vibes: ['stylish'],
 		items: [
-			'tote31-item1.png',
-			'tote31-item2.png',
-			'tote31-item3.png',
-		]
+			'tote32-item1.png',
+			'tote32-item2.png',
+			'tote32-item3.png',
+		],
+		link: '../tote32/tote32.html',
     },
 ];
 

@@ -1,5 +1,5 @@
 
-var randomButton = document.getElementById('randomButton');
+var randomButton = document.querySelector('#randomButton a');
 
 
 // Add an event listener to the button
@@ -7,6 +7,9 @@ randomButton.addEventListener('click', function() {
 // get a random number btwn 0 - index
 var randomFloat = Math.random() * totes.length;
 var randomInt = Math.floor(randomFloat);
+var randomTote = totes[randomInt];
+var randomLink = randomTote['link'];
+randomButton.href = randomLink
 console.log(randomInt);
 
 // run the fn
@@ -19,25 +22,6 @@ insertTote(totes[randomInt]);
 
 
 
-// Function to set background color based on vibe
-function setBackgroundByVibe(vibes) {
-    switch (vibes) {
-        case 'cozy':
-            return 'orangered'; 
-        case 'stylish':
-            return '#c8f926'; 
-        case 'cute':
-            return 'aquamarine'; 
-        case 'energetic':
-            return '#E4CCFF'; 
-        case 'casual':
-            return '#011f1a'; 
-        case 'vintage':
-            return 'rgb(225, 225, 225)'; 
-        default:
-            return ''; 
-    }
-}
 
 
 
