@@ -34,35 +34,47 @@
         }
     </style>
     
-    <div class="Tote">
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
         <img src="../media/tote32.JPG" alt="tote32">
     </div>
 
     <div class="Buttons">
         <div class="button1">
+            <a href="tote32_4.html">
             photography
+            </a>
         </div>
         <div class="button2">
+            <a href="tote32_4.html">
             creative writing
+            </a>
         </div>
         <div class="button3">
+            <a href="tote32_4.html">
             strategic design and management
+            </a>
         </div>
         <div class="button4">
+            <a href="tote32_6.html">
             communication design
+            </a>
         </div>
     </div>
 
-    <div class="one">
-        <h3>Oops, wrong button. How about if you see the contents of the bag?</h3>
+    <div id="h2">
+        <h2 align="right">Drag items into the bag</h2>
+        </div>
+
+
+    <div class="Item">
+        <img src="../media/tote32-item1.png" draggable="true" id="item1" ondragstart="drag(event)">
         <br>
+        <img src="../media/tote32-item2.png" draggable="true" id="item2" ondragstart="drag(event)">
         <br>
-        <a href="tote32_2.html">
-            <img src="../media/next.png" width="45px">
-        </a>
+        <img src="../media/tote32-item3.png" draggable="true" id="item3" ondragstart="drag(event)">
     </div>
 
-<script src="assets/totes.js"></script>
-<script src="assets/scripts.js"></script>
+<script src="../assets/totes.js"></script>
+<script src="../assets/scripts.js"></script>
 </body>
 </html>
