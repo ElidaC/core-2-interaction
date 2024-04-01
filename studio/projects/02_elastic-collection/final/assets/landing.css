@@ -363,27 +363,30 @@ h3 {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 420px) {
   body{
-    height: 100vh;
-    width: 100vw;
+      background-image: url('bg.png');
+      background-size: cover;
+  }
+  
+
+
+
+  img{
+    max-width: 50%;
   }
 
   h2 span  {
-        font-size: 1.5rem; /* 较小屏幕下的字体大小 */
+        font-size: 1.7rem; /* 较小屏幕下的字体大小 */
     }
 
     .question{
       position: relative;
-      margin-top: 220px;
+      margin-top: 260px;
     }
 
-    .question::before{
-      position: relative;
-      box-shadow: 0 0 10px 5px #69f0c8,
-      15px 0 15px 10px #69f0c8,
-      -20px 0 25px 10px #69f0c8,
-      37px 0 30px 20px #69f0c8,
+    .question:before{
+      display: none;
     }
 
     .start{
@@ -411,66 +414,61 @@ h3 {
     }
   
     .p3{
-      top: 1%;
-      left: 50%;
-      width: 300px;
-      bottom: 0;
-      z-index: 320;
+      display: none;
     }
   
     .p6{
-      top: 62%;
-      left: 75%;
-      width: 300px;
-      bottom: 0;
-      z-index: 320;
+      display: none;
     }
   
     .p7{
-      width: 350px;
-      left: -2%;
-      top: 48%;
-      bottom: 0;
-      z-index: 350;
+      display: none;
     }
   
     .p8{
-      width: 300px;
-      top: 9%;
-      left: -13%;
-      bottom: 0;
-      z-index: 320;
+      display: none;
     }
   
     .p9{
-      width: 200px;
-      top: 80%;
-      bottom: 0;
-      left: 55%;
-      z-index: 320;
+      display: none;
     }
   
     .p10{
-      width: 350px;
-      top: -2%;
-      left: 17%;
-      bottom: 0;
-      z-index: 320;
+      display: none;
     }
   
   .p11{
-    width: 210px;
-    top: 79%;
-    left: 12%;
-    bottom: 0;
-    z-index: 320;
+    display: none;
   }
   
   .p12{
-    width: 150px;
-    top: 68%;
-    left: 25%;
-    bottom: 0;
-    z-index: 320;
+    display: none;
+  }
+
+  .intro{
+    position: fixed;
+  }
+  
+  h3 {
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 130px;
+    font-size: 0.7rem;
+  }
+
+  #green{
+    color:#69f0c8;
+    margin-top: -10px;
+    font-size: 1rem;
+    padding: 40px;
+  }
+  
+  #green2{
+    color:#69f0c8;
+    padding: 40px;
+    font-size: 1rem;
+    margin-top: 30px;
   }
 }
