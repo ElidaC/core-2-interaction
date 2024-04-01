@@ -454,19 +454,19 @@ h3{
       }
 
       .button1{
-        top: 38%;
-      }
-    
-      .button2{
         top: 48%;
       }
     
-      .button3{
+      .button2{
         top: 58%;
       }
     
-      .button4{
+      .button3{
         top: 68%;
+      }
+    
+      .button4{
+        top: 78%;
       }
 
       .Tote img{
