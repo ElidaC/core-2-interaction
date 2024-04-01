@@ -8,6 +8,11 @@ html{
     cursor: url('../img/cursor2.png'), auto;
   }
 
+h4{
+    position: absolute;
+    left: 15%;
+}
+
 .Buttons a{
     text-decoration: none;
     background-color: none;
