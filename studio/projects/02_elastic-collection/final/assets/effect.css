@@ -349,6 +349,10 @@ img:hover{
     opacity: 0.2;
 }
 
+#phone{
+    display: none;
+}
+
 .rectangle1{
     background-color: #E4CCFF;
     position: absolute;
@@ -442,29 +446,27 @@ h3{
 
 
 
-
-
 @media screen and (max-width: 420px) {
     .button1, .button2, .button3, .button4 {
-        width: 180px;
-        font-size: 13px;
-        left: 40%;
+        width: 230px;
+        font-size: 11px;
+        left: 30%;
       }
 
       .button1{
-        top: 48%;
+        top: 38%;
       }
     
       .button2{
-        top: 58%;
+        top: 48%;
       }
     
       .button3{
-        top: 68%;
+        top: 58%;
       }
     
       .button4{
-        top: 78%;
+        top: 68%;
       }
 
       .Tote img{
@@ -477,10 +479,6 @@ h3{
         font-size: 1.4rem;
         border-radius: 20%;
         max-width: 100%;
-        height: 150px;
-        background-color: #E4CCFF;
-        text-shadow: 1px 1px 2px rgb(252, 185, 161);
-        box-shadow: 2px 2px 15px 10px orangered;
         padding: 20px;
         text-align: left;
     }
@@ -489,12 +487,41 @@ h3{
         margin-left: 10px;
     }
 
-    #h2{
+    .two {
+        font-size: 1.4rem;
+        border-radius: 20%;
+        max-width: 100%;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    .two a{
+        margin-left: 10px;
+    }
+
+    .three {
+        font-size: 1.4rem;
+        border-radius: 20%;
+        max-width: 100%;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    .three a{
+        margin-left: 10px;
+    }
+
+    #phone{
         position: absolute;
+        display: flex;
         top: 2%;
         text-align: left;
         left: 15%;
         font-size: 0.7rem;
+    }
+
+    #h2{
+        display: none;
     }
 
     .Item img{
@@ -502,7 +529,66 @@ h3{
         z-index: 200;
     }
 
-    .Item{
-        margin-top: 100px;
+    .Item img:hover{
+        max-width: 40%;
     }
+
+    .Item{
+        margin-top: 80px;
+    }
+
+    .quote{
+        margin-top: 100px;
+        font-size: x-large;
+    }
+
+    .rectangle1{
+        background-color: #E4CCFF;
+        position: absolute;
+        width: 100%;
+        height: 110px;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .quit{
+        height: 90px;
+    }
+    
+    .up{
+        position: absolute;
+     font-size: 150px;
+     left: 5%;
+    }
+    
+    .down{
+        position: absolute;
+        font-size: 150px;
+        text-align: right;
+        right: 5%;
+        bottom: 15%;
+    }
+
+    #home {
+        font-size: medium;
+        left: 2.5%;
+        bottom: 2.5%;
+          margin: 0.5em 0;
+          padding: .8em 1em;
+          cursor: pointer;
+          border-radius: .4em;
+          perspective: 500px;
+          transform-style: preserve-3d;
+    }
+    
+    #randomButton {
+        font-size: medium;
+          display: block;
+          position: fixed;
+        right: 2.5%;
+        bottom: 2.5%;
+          margin: 0.5em 0;
+          padding: .8em 1em;
+
+}
 }
