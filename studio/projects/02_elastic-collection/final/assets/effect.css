@@ -446,7 +446,7 @@ h3{
 
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
     .button1, .button2, .button3, .button4 {
         width: 230px;
         font-size: 11px;
@@ -557,16 +557,16 @@ h3{
     
     .up{
         position: absolute;
-     font-size: 150px;
+     font-size: 120px;
      left: 5%;
     }
     
     .down{
         position: absolute;
-        font-size: 150px;
+        font-size: 120px;
         text-align: right;
         right: 5%;
-        bottom: 15%;
+        bottom: 25%;
     }
 
     #home {
@@ -594,9 +594,8 @@ h3{
 
 h3{
     font-size: 1.7rem;
-    text-align: center;
-margin-left: -5px;
-margin-right: -5px;
+    margin-left: -5px;
+    margin-right: -5px;
 }
 
 }
