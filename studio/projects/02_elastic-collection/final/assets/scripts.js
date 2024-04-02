@@ -15,7 +15,7 @@ console.log(randomInt);
 // run the fn
 insertTote(totes[randomInt]);
 
-});
+}); 
 
 
 
