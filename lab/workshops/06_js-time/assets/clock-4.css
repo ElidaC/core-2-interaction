@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(47, 4, 126);
+}
+
+html,body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.month{
+    font-size: 15rem;
+    font-family: "jali-latin-variable", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(84, 251, 221);
+    text-shadow: 5px 5px 10px #f8e671;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    0% {
+      text-shadow: 5px 5px 10px #f8e671;
+    }
+    50% {
+      text-shadow: none; /* 中间状态，阴影消失 */
+    }
+    90% {
+      text-shadow: 5px 5px 10px #fbb2d1;
+    }
+  }
