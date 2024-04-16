@@ -1,5 +1,7 @@
 html{
-    background-image: linear-gradient(to bottom, rgb(251, 122, 129), rgb(113, 255, 255));
+    background-image: url("hhl.png");
+    font-family: "genica", sans-serif;
+    font-style: normal;
 }
 
 #bottle {
@@ -44,13 +46,10 @@ html{
 
 
 .title{
-    font-family: "roca", sans-serif;
-    font-weight: 700;
-    font-style: italic;
     width: 100%;
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 24%;
   }
 
   .tilte span{
@@ -61,23 +60,28 @@ html{
   .text1{
     color: yellow;
     font-size: 5rem;
-    font-weight: 700;
-    letter-spacing: 8px;
+    font-weight: 800;
+    letter-spacing: 5px;
     margin-bottom: 20px;
-    text-shadow: 0 0 5px rgb(0, 255, 221);
-    animation: text 2.5s 1;
+    animation: text 3.5s 1;
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black; 
   }
 
   @keyframes text {
     0%{
-      color: rgb(86, 255, 238);
+      color: #ff6666;
       margin-bottom: -40px;
       text-shadow: 0 0 15px rgb(0, 255, 221);
     }
     30%{
+        color: rgb(0, 255, 221);
       letter-spacing: 25px;
       margin-bottom: -40px;
-      text-shadow: 0 0 5px rgb(0, 255, 221);
+      text-shadow: 0 0 5px #ff6666;
     }
   }
   
@@ -108,8 +112,9 @@ html{
 
   .intro1{
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 30%;
+    transform: rotate(15deg);
   }
 
   .intro2{
@@ -128,15 +133,21 @@ html{
 }
 
 .navigation{
-    float: right;
     display: flex;
     justify-content: space-between;
-    gap: 50px;
-    margin-right: 20px;
+    gap: 40px;
     color: white;
+    position: fixed;
+    right: 4%;
+    text-shadow: 0 0 15px #ff6666;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
 a{
     text-decoration: none;
     color: white;
+    text-shadow: 0 0 15px #ff6666;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
