@@ -1,0 +1,142 @@
+html{
+    background-image: linear-gradient(to bottom, rgb(251, 122, 129), rgb(113, 255, 255));
+}
+
+#bottle {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1000px;
+}
+
+#bottle img {
+    width: 10%; /* 图片宽度占据父容器的18% */
+}
+
+
+#plant img{
+    max-width: 8%;
+    height: auto;
+    align-self: flex-start;
+}
+
+#plant {
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 0 0 20px 20px;
+  }
+
+.Tote {
+    width: 800px;
+    height: 500px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border: 2px dashed #ccc;
+}
+
+.Tote img {
+    position: absolute;
+    cursor: move;
+}
+
+
+.title{
+    font-family: "roca", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+  }
+
+  .tilte span{
+    text-transform: uppercase;
+    display: block;
+  }
+
+  .text1{
+    color: yellow;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgb(0, 255, 221);
+    animation: text 2.5s 1;
+  }
+
+  @keyframes text {
+    0%{
+      color: rgb(86, 255, 238);
+      margin-bottom: -40px;
+      text-shadow: 0 0 15px rgb(0, 255, 221);
+    }
+    30%{
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+      text-shadow: 0 0 5px rgb(0, 255, 221);
+    }
+  }
+  
+  #hand{
+    transform: rotate(48deg);
+    position: absolute;
+    top: 0;
+    animation: move 3s infinite;
+  }
+
+  @keyframes move{
+    0%{
+        top: -15%;
+    }
+    50%{
+        top: 0;
+    }
+    100%{
+        top: -15%;
+    }
+  }
+
+  #succulent{
+    position: absolute;
+    left: 0;
+    top: 3%;
+  }
+
+  .intro1{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+  }
+
+  .intro2{
+    position: absolute;
+    top: 75%;
+    left: 60%;
+  }
+
+  .intro1 h2{
+    color: rgb(39, 241, 214);
+    margin-top: -20px;
+  }
+
+.intro2 h4{
+    width: 330px;
+}
+
+.navigation{
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
