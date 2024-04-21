@@ -1,22 +1,76 @@
 var key = '210f65b3b8c331f56a9ad2a77ea46754';
+var lat = 52.52;
+var lng = 13.41;
 var zip = 10011;
 
-var URL = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&units=imperial&appid=${key}`;
 
-fetch(URL)
+// air quality - PM 2.5
+var URL_1 = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lng}&appid=${key}`;
+
+// wind speed
+var URL_2 = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&units=imperial&appid=${key}`;
+
+
+fetch(URL_1)
   .then((response) => {
     return response.json();
   })
   .then((data) => {
-    render(data);
+    renderAirQuality(data);
   });
 
-function render(data) {
+  fetch(URL_2)
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    renderWeather(data);
+  });
+
+
+
+  function renderAirQuality(data) {
+    var colorElement = document.querySelector('body');
+  
+    colorElement.style.background = `${ data.list.pm2_5 }μg/m³`;
+
+    var saturation = '0%';
+    var num = data.list[0].components.pm2_5;
+    console.log(data.list[0].components.pm2_5)
+
+    if (num < 12) {
+      saturation = '100%';
+    }
+    else if (num >= 12 && num < 35.5) {
+      saturation = '80%';
+    }
+    else if (num >= 35.5 && num < 55.5) {
+      saturation = '60%';
+    }
+    else if (num >= 55.5 && num < 150.5) {
+      saturation = '40%';
+    }
+    else if (num >= 150.5 && num < 250.5) {
+      saturation = '20%';
+    }
+    else  {
+      saturation = '0';
+    }
+    colorElement.style.filter = `saturate(${ saturation })`
+
+  }
+  
+  
+  
+
+
+
+function renderWeather(data) {
   setInterval(() => {
     var now = new Date();
     var currentHour = now.getHours();
   
-    var containerElement = document.querySelector('.Container');
+    var containerElement = document.querySelector('body');
     var hoursElement = document.querySelector('.Hours');
     
     var colorStops = [
@@ -52,8 +106,11 @@ function render(data) {
     hoursElement.innerHTML = currentHour;
   }, 1000);
 
-  var weatherElement = document.querySelector('.Weather');
-  weatherElement.style.animationDuration = `${ data.wind.speed / 30 }s` ;
+  var weatherElement = document.querySelector('.Whole');
+  weatherElement.style.animationDuration = `${ data.wind.speed / 3 }s` ;
   
     console.log(data);
 }
+
+
+
