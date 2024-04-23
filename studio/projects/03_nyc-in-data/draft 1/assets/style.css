@@ -1,0 +1,303 @@
+html{
+	background-image: cover;
+}
+
+body {
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	margin: 0;
+}
+
+.Container {
+	width: 80%;
+}
+
+h1{
+	font-size: 6rem;
+	font-family: "quasimoda", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	margin-bottom: 10px;
+}
+
+.Whole{
+	animation-name: wave;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+	0% {letter-spacing: normal;}
+    50% {letter-spacing: 2px;}
+    100% {letter-spacing: normal;}
+  }
+
+  h2,h3,h4{
+	font-family: "quasimoda", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 0.8;
+  }
+
+
+
+  p{
+	font-size: x-large;
+	font-family: "quasimoda", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	display: flex;
+	justify-content: center;
+  }
+
+
+.button {
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 1rem;
+	letter-spacing: 4px;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: none;
+	color: black;
+	padding: 20px;
+	width: 160px;
+	height: 160px;
+	transition-duration: 0.4s;
+	overflow: hidden;
+	box-shadow: 0 5px 15px #b1c7fc;
+	border-radius: 50%;
+	font-family: "quasimoda", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	position: absolute;
+  }
+  
+  .button:hover {
+	background: #fff;
+	box-shadow: 0px 2px 10px 5px #6fddff;
+	color: #000;
+  }
+  
+  .button:after {
+	content: "";
+	background: #afe9f9;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s;
+  }
+  
+  .button:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s;
+  }
+  
+  .button:focus {
+	outline: 0;
+  }
+  
+  #b1{
+	left: 15%;
+	top: 125%;
+	animation: b1 2s infinite;
+  }
+
+  @keyframes b1{
+	0% {
+		top: 123%;
+	}
+	50%{
+		top: 127%;
+	}
+	100%{
+		top: 123%;
+	}
+  }
+
+  #b2{
+	left: 45%;
+	top: 110%;
+	animation: b2 2s infinite;
+  }
+
+@keyframes b2{
+	0%{
+		top: 108%;
+	}
+	50%{
+		top: 112%;
+	}
+	100%{
+		top: 108%;
+	}
+}
+
+  #b3{
+	left: 75%;
+	top: 130%;
+	animation: b3 2s infinite;
+  }
+
+  @keyframes b3{
+	0%{
+		top:128%;
+	}
+	50%{
+		top: 132%;
+	}
+	100%{
+		top: 128%;
+	}
+  }
+
+#free{
+	position: absolute;
+	top: 180%;
+}
+
+#welcome{
+	position: absolute;
+	top: 210%;
+	left: 70%;
+	margin-top: 10px;
+	font-size: large;
+}
+
+#welcome h2{
+	font-family: "quasimoda", sans-serif;
+	font-weight: 1000;
+	font-style: normal;
+}
+
+.apply{
+	position: absolute;
+	top: 250%;
+	width: 200px;
+	height: 60px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: none;
+	color: black;
+	padding: 20px;
+	box-shadow: 0 5px 15px #b1c7fc;
+	border-radius: 50%;
+	font-family: "quasimoda", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	left: 45%;
+}
+
+#circle{
+	width: 30px;
+	height: 30px;
+	box-shadow: 0 5px 15px #b1c7fc;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.contributor{
+	position: absolute;
+	top: 280%;
+}
+
+#info h3{
+	font-family: "quasimoda-2", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+#info h4{
+	margin-top: -10px;
+}
+
+.one{
+	display: flex;
+	gap: 40px;
+}
+
+.two{
+	display: flex;
+	gap: 40px;
+}
+
+.three{
+	display: flex;
+	gap: 40px;
+}
+
+.four{
+	display: flex;
+	gap: 40px;
+}
+
+.five{
+	display: flex;
+	gap: 40px;
+}
+
+.six{
+	display: flex;
+	gap: 40px;
+}
+
+.seven{
+	display: flex;
+	gap: 40px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#Layer_1{
+	margin-left: 500px;
+}
+
+#Layer_2{
+	opacity: 0.4;
+	position: absolute;
+	top: 34%;
+	left: 15%;
+}
+
+h5{
+	font-family: "quasimoda", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 0.8;
+	opacity: 0.4;
+}
+
+#location{
+	position: absolute;
+	top: 35%;
+}
+
+#location1{
+	position: absolute;
+	top: 36%;
+}
+
+#location2{
+	position: absolute;
+	top: 39%;
+	left: 26%;
+}
+
+#location3{
+	position: absolute;
+	top: 47%;
+	left: 25%;
+}
