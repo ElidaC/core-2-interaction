@@ -30,7 +30,7 @@ fetch(URL_1)
 
 
   function renderAirQuality(data) {
-    var colorElement = document.querySelector('body');
+    var colorElement = document.querySelector('html');
   
     colorElement.style.background = `${ data.list.pm2_5 }μg/m³`;
 
@@ -74,29 +74,30 @@ function renderWeather(data) {
     var hoursElement = document.querySelector('.Hours');
     
     var colorStops = [
-      { start: '#0F0F82', end: '#081012' },   //1-2
-      { start: '#081012', end: '#1A4759' },   //2-3
-      { start: '#1A4759', end: '#0E749D' },   //3-4
-      { start: '#0E749D', end: '#62B6CC' },   //4-5
-      { start: '#62B6CC', end: '#F4E0D3' },   //5-6
-      { start: '#F4E0D3', end: '#E0AB9A' },   //6-7
-      { start: '#E0AB9A', end: '#C7E6EF' },   //7-8
-      { start: '#C7E6EF', end: '#9ED9EF' },   //8-9
-      { start: '#9ED9EF', end: '#68CFFC' },   //9-10
-      { start: '#68CFFC', end: '#27BFF4' },   //10-11
-      { start: '#27BFF4', end: '#12A6F9' },   //11-12
-      { start: '#12A6F9', end: '#008CFF' },   //12-13
-      { start: '#008CFF', end: '#00AAFF' },   //13-14
-      { start: '#00AAFF', end: '#19CFF9' },   //14-15
-      { start: '#19CFF9', end: '#46ECF9' },   //15-16
-      { start: '#46ECF9', end: '#FFEC00' },   //16-17
-      { start: '#FFEC00', end: '#F9B050' },   //17-18
-      { start: '#F9B050', end: '#EF8A84' },   //18-19
-      { start: '#EF8A84', end: '#698EC9' },   //19-20
-      { start: '#698EC9', end: '#2578CA' },   //20-21
-      { start: '#2578CA', end: '#185093' },   //21-22
-      { start: '#185093', end: '#053A88' },   //22-23
-      { start: '#053A88', end: '#0F0F82' }    //23-24
+      { start: '#01132D', end: '#081012' },   //24-1
+      { start: '#081012', end: '#1A4759' },   //1-2
+      { start: '#1A4759', end: '#0E749D' },   //2-3
+      { start: '#0E749D', end: '#62B6CC' },   //3-4
+      { start: '#62B6CC', end: '#F4E0D3' },   //4-5
+      { start: '#F4E0D3', end: '#E0AB9A' },   //5-6
+      { start: '#E0AB9A', end: '#C7E6EF' },   //6-7
+      { start: '#C7E6EF', end: '#9ED9EF' },   //7-8
+      { start: '#9ED9EF', end: '#68CFFC' },   //8-9
+      { start: '#68CFFC', end: '#27BFF4' },   //9-10
+      { start: '#27BFF4', end: '#12A6F9' },   //10-11
+      { start: '#12A6F9', end: '#008CFF' },   //11-12
+      { start: '#008CFF', end: '#00AAFF' },   //12-13
+      { start: '#00AAFF', end: '#19CFF9' },   //13-14
+      { start: '#19CFF9', end: '#46ECF9' },   //14-15
+      { start: '#46ECF9', end: '#FFEC00' },   //15-16
+      { start: '#FFEC00', end: '#F9B050' },   //16-17
+      { start: '#F9B050', end: '#EF8A84' },   //17-18
+      { start: '#EF8A84', end: '#698EC9' },   //18-19
+      { start: '#698EC9', end: '#2578CA' },   //19-20
+      { start: '#2578CA', end: '#185093' },   //20-21
+      { start: '#185093', end: '#053A88' },   //21-22
+      { start: '#053A88', end: '#0F0F82' },   //22-23
+      { start: '#0F0F82', end: '#01132D' },   //23-24
     ];
   
     var currentColorStop = colorStops[currentHour];
