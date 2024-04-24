@@ -268,7 +268,7 @@ a {
 #Layer_2{
 	opacity: 0.4;
 	position: absolute;
-	top: 34%;
+	top: 64%;
 	left: 15%;
 }
 
@@ -282,22 +282,22 @@ h5{
 
 #location{
 	position: absolute;
-	top: 35%;
+	top: 65%;
 }
 
 #location1{
 	position: absolute;
-	top: 36%;
+	top: 66%;
 }
 
 #location2{
 	position: absolute;
-	top: 39%;
+	top: 69%;
 	left: 26%;
 }
 
 #location3{
 	position: absolute;
-	top: 47%;
+	top: 77%;
 	left: 25%;
 }
