@@ -11,6 +11,8 @@ var URL_1 = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon
 var URL_2 = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&units=imperial&appid=${key}`;
 
 
+renderTime();
+
 fetch(URL_1)
   .then((response) => {
     return response.json();
@@ -19,7 +21,7 @@ fetch(URL_1)
     renderAirQuality(data);
   });
 
-  fetch(URL_2)
+fetch(URL_2)
   .then((response) => {
     return response.json();
   })
@@ -27,52 +29,55 @@ fetch(URL_1)
     renderWeather(data);
   });
 
+function renderTime() {
+  var nowDateObject = new Date();
+  var earthDayDateObject = new Date('2024-04-22T00:00:00');
+  var nowSeconds = nowDateObject.getTime() / 1000;
+  var earthDaySeconds = earthDayDateObject.getTime() / 1000;
+  var diffSeconds = earthDaySeconds - nowSeconds;
+  var diffDays = Math.floor(diffSeconds / 60 / 60 / 24) * -1;
+  console.log(diffDays);
+}
 
+function renderAirQuality(data) {
+  var colorElement = document.querySelector('#day');
 
-  function renderAirQuality(data) {
-    var colorElement = document.querySelector('#day');
-  
-    colorElement.style.background = `${ data.list.pm2_5 }μg/m³`;
+  colorElement.style.background = `${data.list.pm2_5}μg/m³`;
 
-    var saturation = '0%';
-    var num = data.list[0].components.pm2_5;
-    console.log(data.list[0].components.pm2_5)
+  var saturation = '0%';
+  var num = data.list[0].components.pm2_5;
 
-    if (num < 12) {
-      saturation = '100%';
-    }
-    else if (num >= 12 && num < 35.5) {
-      saturation = '80%';
-    }
-    else if (num >= 35.5 && num < 55.5) {
-      saturation = '60%';
-    }
-    else if (num >= 55.5 && num < 150.5) {
-      saturation = '40%';
-    }
-    else if (num >= 150.5 && num < 250.5) {
-      saturation = '20%';
-    }
-    else  {
-      saturation = '0';
-    }
-    colorElement.style.filter = `saturate(${ saturation })`
-
+  if (num < 12) {
+    saturation = '100%';
   }
-  
-  
-  
+  else if (num >= 12 && num < 35.5) {
+    saturation = '80%';
+  }
+  else if (num >= 35.5 && num < 55.5) {
+    saturation = '60%';
+  }
+  else if (num >= 55.5 && num < 150.5) {
+    saturation = '40%';
+  }
+  else if (num >= 150.5 && num < 250.5) {
+    saturation = '20%';
+  }
+  else {
+    saturation = '0';
+  }
+  colorElement.style.filter = `saturate(${saturation})`
 
+}
 
 
 function renderWeather(data) {
   setInterval(() => {
     var now = new Date();
     var currentHour = now.getHours();
-  
+
     var containerElement = document.querySelector('#day');
     var hoursElement = document.querySelector('.Hours');
-    
+
     var colorStops = [
       { start: '#01132D', end: '#081012' },   //24-1
       { start: '#081012', end: '#1A4759' },   //1-2
@@ -99,9 +104,9 @@ function renderWeather(data) {
       { start: '#053A88', end: '#0F0F82' },   //22-23
       { start: '#0F0F82', end: '#01132D' },   //23-24
     ];
-  
+
     var currentColorStop = colorStops[currentHour];
-  
+
     containerElement.style.background = `linear-gradient(to bottom, ${currentColorStop.start}, ${currentColorStop.end})`;
 
     // Additional styles to achieve text gradient effect
@@ -109,12 +114,9 @@ function renderWeather(data) {
     containerElement.style.webkitTextFillColor = 'transparent';
     containerElement.style.backgroundClip = 'text';
     containerElement.style.color = 'transparent';
-  
-    hoursElement.innerHTML = currentHour;
+
   }, 1000);
 
   var weatherElement = document.querySelector('.label');
-  weatherElement.style.animationDuration = `${ data.wind.speed / 3 }s` ;
-  
-    console.log(data);
+  weatherElement.style.animationDuration = `${data.wind.speed / 3}s`;
 }

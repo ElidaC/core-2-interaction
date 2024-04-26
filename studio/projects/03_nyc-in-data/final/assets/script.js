@@ -115,7 +115,16 @@ containerElement.style.backgroundSize = 'cover';
   }, 1000);
 
   var weatherElement = document.querySelector('.Whole');
-  weatherElement.style.animationDuration = `${ data.wind.speed / 3 }s` ;
+  weatherElement.style.animationDuration = `${ data.wind.speed / 2 }s` ;
+  var weatherElement = document.querySelector('#b1');
+  weatherElement.style.animationDuration = `${ data.wind.speed / 2 }s` ;
+  var weatherElement = document.querySelector('#b2');
+  weatherElement.style.animationDuration = `${ data.wind.speed / 2 }s` ;
+  var weatherElement = document.querySelector('#b3');
+  weatherElement.style.animationDuration = `${ data.wind.speed / 2 }s` ;
+
+  
+
   
     console.log(data);
 }

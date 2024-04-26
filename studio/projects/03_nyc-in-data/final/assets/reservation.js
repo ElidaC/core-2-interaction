@@ -30,7 +30,7 @@ fetch(URL_1)
 
 
   function renderAirQuality(data) {
-    var colorElement = document.querySelector('.box');
+    var colorElement = document.querySelector('#content h4');
   
     colorElement.style.background = `${ data.list.pm2_5 }μg/m³`;
 
@@ -70,7 +70,7 @@ function renderWeather(data) {
     var now = new Date();
     var currentHour = now.getHours();
   
-    var containerElement = document.querySelector('.box');
+    var containerElement = document.querySelector('#content h4');
     var hoursElement = document.querySelector('.Hours');
     
     var colorStops = [
@@ -103,7 +103,11 @@ function renderWeather(data) {
     var currentColorStop = colorStops[currentHour];
   
     containerElement.style.background = `linear-gradient(to bottom, ${currentColorStop.start}, ${currentColorStop.end})`;
-  
+    containerElement.style.color = 'transparent'; // Hide original text color
+    containerElement.style.backgroundImage = `linear-gradient(to bottom, ${currentColorStop.start}, ${currentColorStop.end})`;
+    containerElement.style.webkitBackgroundClip = 'text'; // Clip background to text (for WebKit/Blink browsers)
+    containerElement.style.backgroundClip = 'text';
+
     hoursElement.innerHTML = currentHour;
   }, 1000);
 

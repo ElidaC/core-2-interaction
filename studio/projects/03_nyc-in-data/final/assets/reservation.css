@@ -7,21 +7,7 @@ html{
 
 
 
-.box{
-    width: 700px;
-    height: 300px;
-    opacity: 0.7;
-    border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 100;
-}
 
-.box:hover{
-    opacity: 0.9;
-}
 
 
 
@@ -46,21 +32,22 @@ h2{
 h4{
     font-size: large;
     color: #fff;
-    line-height: 0.5;
+    line-height: 1.2;
 }
 
 #content{
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
     filter: blur(5px);
     z-index: 100;
+    color: transparent;
 }
 
 #content:hover{
-    filter: initial;
+    filter: none;
 }
 
 #arrow{
@@ -72,8 +59,8 @@ h4{
 
 #arrow2{
     position: absolute;
-    left: 10%;
-    top: 60%;
+    left: 20%;
+    top: 70%;
     transform: rotate(100deg);
 }
 
@@ -98,16 +85,16 @@ h1{
 
 #climate{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 80%;
+    left: 70%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 40%;
 }
 
 #clothing{
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
@@ -122,16 +109,16 @@ h1{
 
 #pancake{
     position: absolute;
-    top: 43%;
-    left: 4%;
+    top: 50%;
+    left: 2%;
     transform: translate(-50%, -50%);
     transform: rotate(7deg);
 }
 
 #tofu{
     position: absolute;
-    top: 8%;
-    left: 10%;
+    top: 15%;
+    left: 5%;
     transform: translate(-50%, -50%);
     transform: rotate(-7deg);
 }
