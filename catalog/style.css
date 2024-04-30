@@ -36,12 +36,10 @@ a:visited{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
     padding: 20px;
     width: 80%;
     height: 80%;
     border-radius: 15px;
-    opacity: 0.95;
     z-index: 1000; /* Ensure the divs appear on top of other elements */
   }
 
@@ -78,6 +76,16 @@ h4{
     right: 5%;
 }
 
+h5{
+    color: yellow;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-family: "faustina", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+}
+
 img{
     filter: grayscale(1);
     position: absolute;
@@ -86,23 +94,22 @@ img{
 img:hover{
     filter: contrast(5);
     transform: rotate(-20deg);
-    z-index: 600;
+    z-index: 500;
 }
 
 #sp0{
-    top: 23%;
-    left: 7%;
+    top: 33%;
+    left: 15%;
 }
 
 #sp1{
-    top: 20%;
+    top: 18%;
     left: 24%;
-    z-index: 10;
 }
 
 #sp3{
     left: 30%;
-    z-index: 20;
+    background-color: transparent;
 }
 
 #sp4{
@@ -145,7 +152,6 @@ img:hover{
 #sw2{
     top: 60%;
     left: 40%;
-    z-index: 30;
 }
 
 #lw1{
@@ -184,3 +190,10 @@ img:hover{
 }
 
 
+video{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
