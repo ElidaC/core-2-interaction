@@ -90,6 +90,7 @@ h4{
 img{
     filter: contrast(7);
     background-color: transparent;
+    box-shadow: 2px 2px 4px yellow;
 }
 
 h2{
@@ -127,6 +128,9 @@ h3{
     color: white;
     margin-top: -100px;
     margin-left: 60px;
+    line-height: 1.5;
+    width: 35%;
+    letter-spacing: 1.1px;
 }
 
 #one{
@@ -159,4 +163,18 @@ h3{
 #four h3{
     margin-top: -50px;
     left: 70px;
+}
+
+#five{
+    display: flex;
+    margin-top: 600px;
+}
+
+#five img{
+    filter: none;
+}
+
+#six{
+    display: flex;
+    margin-top: 600px;
 }
