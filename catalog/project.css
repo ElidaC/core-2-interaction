@@ -178,3 +178,31 @@ h3{
     display: flex;
     margin-top: 600px;
 }
+
+#seven{
+    display: flex;
+    margin-top: 600px;
+}
+
+#eight{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 300px;
+}
+
+#nine{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 200px;
+}
+
+#ten{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 300px;
+}
+
+#ten img{
+    filter: none;
+}
+
