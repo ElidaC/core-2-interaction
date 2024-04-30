@@ -1,0 +1,186 @@
+*{
+    background-color: rgb(32, 32, 32);
+    font-family: "sinete", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+html{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(0, 0, 255)
+}
+
+#description-container{
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    color: yellow;
+    font-family: "faustina", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: large;
+}
+
+.imageDiv {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    opacity: 0.95;
+    z-index: 1000; /* Ensure the divs appear on top of other elements */
+  }
+
+#name{
+    font-size: 5rem;
+    font-weight: 1000;
+    line-height: 0.3;
+    z-index: 300;
+}
+
+
+h1{
+    color: rgb(0, 0, 255);
+    z-index: 300;
+}
+
+h4{
+    color: rgb(95, 94, 94);
+    background-color: transparent;
+}
+
+#email{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    font-weight: 400;
+}
+
+.navigation{
+    display: flex;
+    gap: 100px;
+    position: fixed;
+    top: 0;
+    right: 5%;
+}
+
+img{
+    filter: grayscale(1);
+    position: absolute;
+}
+
+img:hover{
+    filter: contrast(5);
+    transform: rotate(-20deg);
+    z-index: 600;
+}
+
+#sp0{
+    top: 23%;
+    left: 7%;
+}
+
+#sp1{
+    top: 20%;
+    left: 24%;
+    z-index: 10;
+}
+
+#sp3{
+    left: 30%;
+    z-index: 20;
+}
+
+#sp4{
+    left: 40%;
+}
+
+#lp1{
+    top: 15%;
+    left: 50%;
+}
+
+#lp2{
+    top: 20%;
+    left: 60%;
+}
+
+#lp3{
+    left: 70%;
+}
+
+#lp4{
+    left: 77%;
+}
+
+#lp5{
+    top: 60%;
+    left: 5%;
+}
+
+#lp6{
+    top: 60%;
+    left: 15%;
+}
+
+#sw1{
+    top: 75%;
+    left: 30%;
+}
+
+#sw2{
+    top: 60%;
+    left: 40%;
+    z-index: 30;
+}
+
+#lw1{
+    top: 30%;
+    left: 48%;
+}
+
+#lw2{
+    top: 65%;
+    left: 60%;
+}
+
+#lw3{
+    top: 60%;
+    left: 70%;
+}
+
+#lw4{
+    top: 80%;
+    left: 10%;
+}
+
+#lw5{
+    top: 65%;
+    left: 20%;
+}
+
+#lw6{
+    top: 60%;
+    left: 40%;
+    color:  rgb(32, 32, 32);;
+}
+
+#lw6:hover{
+    color: white;
+}
+
+
