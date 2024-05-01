@@ -37,7 +37,10 @@ function renderTime() {
   var diffSeconds = earthDaySeconds - nowSeconds;
   var diffDays = Math.floor(diffSeconds / 60 / 60 / 24) * -1;
   console.log(diffDays);
+
+  document.getElementById("day").innerHTML = diffDays;  
 }
+renderTime();
 
 function renderAirQuality(data) {
   var colorElement = document.querySelector('#day');
