@@ -1,0 +1,221 @@
+*{
+    background-color: rgb(32, 32, 32);
+    font-family: "sinete", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+html{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(0, 0, 255);
+}
+
+#description-container{
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    color: yellow;
+    font-family: "faustina", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: large;
+}
+
+.imageDiv {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    opacity: 0.95;
+    z-index: 1000; /* Ensure the divs appear on top of other elements */
+  }
+
+#name{
+    font-size: 5rem;
+    font-weight: 1000;
+    line-height: 0.3;
+    z-index: 300;
+}
+
+.title{
+    position: fixed;
+    top: -1%;
+}
+
+h1{
+    color: rgb(0, 0, 255);
+    z-index: 300;
+}
+
+h4{
+    color: rgb(95, 94, 94);
+    background-color: transparent;
+}
+
+#email{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    font-weight: 400;
+}
+
+.navigation{
+    display: flex;
+    gap: 100px;
+    position: fixed;
+    top: 0;
+    right: 5%;
+}
+
+.project{
+    margin-top: 150px;
+    display: flex;
+}
+
+img{
+    filter: contrast(7);
+    background-color: transparent;
+    box-shadow: 2px 2px 4px yellow;
+    z-index: 400;
+}
+
+h2{
+    font-family: "faustina", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(95, 94, 94);
+}
+
+li{
+    font-family: "faustina", sans-serif;
+    font-weight: 400;
+    font-size: small;
+    color: rgb(95, 94, 94);
+    line-height: 0.1;
+}
+
+li:hover{
+    color: yellow;
+}
+
+.fixed{
+    position: fixed;
+    top: 45%;
+    right: 5%;
+    display: flex;
+}
+
+
+
+h3{
+    font-family: "faustina", sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    color: white;
+    margin-top: -100px;
+    margin-left: 60px;
+    line-height: 1.5;
+    width: 35%;
+    letter-spacing: 1.1px;
+}
+
+#one{
+    display: flex;
+    margin-top: 150px;
+}
+
+#two{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 200px;
+}
+
+#three{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 200px;
+}
+
+#four{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 150px; 
+}
+
+#four img{
+    filter: none;
+}
+
+#four h3{
+    margin-top: -50px;
+    left: 70px;
+}
+
+#five{
+    display: flex;
+    margin-top: 600px;
+}
+
+#five img{
+    filter: none;
+}
+
+#six{
+    display: flex;
+    margin-top: 600px;
+}
+
+#seven{
+    display: flex;
+    margin-top: 600px;
+}
+
+#eight{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 300px;
+}
+
+#nine{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 200px;
+}
+
+#ten{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 300px;
+}
+
+#ten img{
+    filter: none;
+}
+
+.hide{
+    margin-top: -300px;
+    color: rgb(32, 32, 32);
+}
+
+#p3{
+    margin-top: -200px;
+}
+
+#p4{
+    margin-top: -130px;
+}

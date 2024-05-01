@@ -1,0 +1,284 @@
+html{
+    margin: 20px;
+    font-size: 5rem;
+    background-color: rgb(255, 109, 109);
+    font-family: juniper-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    position: absolute;
+    left: 5%;
+}
+
+.two{
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+.three{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.four{
+    position: absolute;
+    top: 35%;
+    right: 45%;
+}
+
+.five{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.six{
+    position: absolute;
+    top: 65%;
+    right: 25%;
+}
+
+.seven{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+}
+
+
+@media (max-width: 1400px){
+    .one{
+        color: gainsboro;
+    }
+    
+    .two{
+        color: rgb(255, 109, 109);
+    }
+    
+    .three{
+       color:  rgb(255, 109, 109);
+    }
+    
+    .four{
+        color: rgb(255, 109, 109);
+    }
+
+    .five{
+        color: rgb(255, 109, 109);
+    }
+    
+    .six{
+       color:  rgb(255, 109, 109);
+    }
+    
+    .seven{
+        color: rgb(255, 109, 109);
+    }
+}
+
+@media (max-width: 1250px){
+    html{
+        background-color: orange;
+    }
+    .one{
+        color: orange;
+    }
+    
+    .two{
+        color: rgb(255, 109, 109);
+    }
+    
+    .three{
+       color: orange;
+    }
+    
+    .four{
+        color: orange;
+    }
+
+    .five{
+        color: orange;
+    }
+    
+    .six{
+       color:  orange;
+    }
+    
+    .seven{
+        color: orange;
+    }
+}
+
+@media (max-width: 1100px){
+    html{
+        background-color: rgb(255, 255, 169);
+    }
+    .one{
+        color:rgb(255, 255, 169);
+    }
+    
+    .two{
+        color: rgb(255, 255, 169);
+    }
+    
+    .three{
+       color: orange
+    }
+    
+    .four{
+        color: rgb(255, 255, 169);
+    }
+    
+    .five{
+        color: rgb(255, 255, 169);
+    }
+    
+    .six{
+       color: rgb(255, 255, 169);
+    }
+    
+    .seven{
+        color: rgb(255, 255, 169);
+    }
+}
+
+@media (max-width: 950px){
+    html{
+        background-color: rgb(0, 114, 0);
+    }
+    .one{
+        color: rgb(0, 114, 0);
+    }
+    
+    .two{
+        color: rgb(0, 114, 0);
+    }
+    
+    .three{
+       color: rgb(0, 114, 0);
+    }
+    
+    .four{
+        color: rgb(255, 255, 169);
+    }
+
+    .five{
+        color: rgb(0, 114, 0);
+    }
+
+    .six{
+        color: rgb(0, 114, 0);
+    }
+
+    .seven{
+        color: rgb(0, 114, 0);
+    }
+
+}
+
+@media (max-width: 800px){
+    html{
+        background-color: rgb(13, 230, 194);
+    }
+    .one{
+        color: rgb(13, 230, 194);
+    }
+    
+    .two{
+        color: rgb(13, 230, 194);
+    }
+    
+    .three{
+       color: rgb(13, 230, 194);
+    }
+    
+    .four{
+        color: rgb(13, 230, 194);
+    }
+
+    .five{
+        color: rgb(0, 114, 0);
+    }
+
+    .six{
+        color: rgb(13, 230, 194);
+    }
+
+    .seven{
+        color: rgb(13, 230, 194);
+    }
+}
+
+@media (max-width: 650px){
+    html{
+        background-color: rgb(3, 98, 241);
+    }
+    .one{
+        color: rgb(3, 98, 241);
+    }
+    
+    .two{
+        color: rgb(3, 98, 241);
+    }
+    
+    .three{
+       color: rgb(3, 98, 241);
+    }
+    
+    .four{
+        color: rgb(3, 98, 241);
+    }
+
+    .five{
+        color: rgb(3, 98, 241);
+    }
+
+    .six{
+        color: rgb(13, 230, 194);
+    }
+
+    .seven{
+        color: rgb(3, 98, 241);
+    }
+}
+
+@media (max-width: 500px){
+    html{
+        background-color: rgb(183, 153, 221);
+    }
+    .one{
+        color: rgb(183, 153, 221);
+    }
+    
+    .two{
+        color: rgb(183, 153, 221);
+    }
+    
+    .three{
+       color: rgb(183, 153, 221);
+    }
+    
+    .four{
+        color: rgb(183, 153, 221);
+    }
+
+    .five{
+        color: rgb(183, 153, 221);
+    }
+
+    .six{
+        color: rgb(183, 153, 221);
+    }
+
+    .seven{
+        color: rgb(3, 98, 241);
+    }
+}
