@@ -1,0 +1,34 @@
+html {
+    background-color: antiquewhite;
+    font-family: genica, sans-serif;
+    font-weight: 800;
+    font-style: normal; 
+    filter: blur(10px);
+}
+
+html:hover{
+    filter: none;
+}
+
+.image{
+    display: flex;
+}
+
+.one{
+    font-size: 9rem;
+    color:rgb(220, 199, 170);
+    position: absolute;
+    right: 5%;
+}
+
+.text{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: rgb(3, 36, 134);
+    font-size: large;
+}
+
+p{
+    line-height: 0.5;
+}

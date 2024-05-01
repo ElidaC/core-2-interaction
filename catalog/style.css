@@ -144,14 +144,19 @@ img:hover{
     left: 15%;
 }
 
-#sw1{
+#sw0{
     top: 75%;
     left: 30%;
 }
 
-#sw2{
+#sw1{
     top: 60%;
     left: 40%;
+}
+
+#sw2{
+    top: 88%;
+    left: 30%;
 }
 
 #lw1{
