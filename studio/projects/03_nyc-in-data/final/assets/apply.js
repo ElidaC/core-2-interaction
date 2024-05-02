@@ -79,7 +79,6 @@ function renderWeather(data) {
     var currentHour = now.getHours();
 
     var containerElement = document.querySelector('#day');
-    var hoursElement = document.querySelector('.Hours');
 
     var colorStops = [
       { start: '#01132D', end: '#081012' },   //24-1

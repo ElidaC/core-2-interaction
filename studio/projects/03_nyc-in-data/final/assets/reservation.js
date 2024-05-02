@@ -25,6 +25,9 @@ var URL = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&units=impe
       var elementOne = document.getElementById('one');
       var elementTwo = document.getElementById('two');
       var elementThree = document.getElementById('three');
+      var elementFour = document.getElementById('four');
+      var elementFive = document.getElementById('five');
+      var elementSix = document.getElementById('six');
   
       var colorStops = [
         { start: '#01132D', end: '#081012' },   // 0-1
@@ -60,6 +63,9 @@ var URL = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&units=impe
       elementOne.style.textShadow = textShadow;
       elementTwo.style.textShadow = textShadow;
       elementThree.style.textShadow = textShadow;
+      elementFour.style.textShadow = textShadow;
+      elementFive.style.textShadow = textShadow;
+      elementSix.style.textShadow = textShadow;
       
     }, 1000);
 
