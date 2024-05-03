@@ -111,7 +111,6 @@ containerElement.style.backgroundSize = 'cover';
 
 
 
-    hoursElement.innerHTML = currentHour;
   }, 1000);
 
   var weatherElement = document.querySelector('.Whole');

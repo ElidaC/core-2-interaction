@@ -55,6 +55,15 @@ h1{
 	width: 100%;
 }
 
+#intro2{
+	position: absolute;
+	top: 140%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	opacity: 0;
+}
+
 p{
 	font-size: x-large;
 	font-family: "quasimoda", sans-serif;
@@ -281,6 +290,7 @@ a {
 	position: absolute;
 	top: 58%;
 	right: 7%;
+	width: 600px;
 }
 
 #Layer_2{
@@ -550,22 +560,7 @@ h4{
 	background-color: #fff;
 }
 
-#time6{
-	position: absolute;
-	font-size: 4rem;
-	font-family: "quasimoda", sans-serif;
-	font-weight: 800;
-	font-style: normal;
-	top: 355%;
-	left: 83%;
-	animation: move infinite;
-}
 
-@keyframes move {
-	0% {letter-spacing: normal;}
-    50% {letter-spacing: 3px;}
-    100% {letter-spacing: normal;}
-  }
 
 #arrow1{
 	position: absolute;
@@ -626,4 +621,443 @@ h4{
 	width: 100%;
 	left: 50%; 
     transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 950px) {
+	h1{
+		font-size: 3rem;
+	}
+
+	.time{
+		font-size: 0.7rem;
+	}
+
+	#Layer_1{
+		top: 70%;
+		width: 90%;
+	}
+
+	#arrow1{
+		width: 15%;
+		top: 55%;
+		right: 32%;
+	}
+
+	#lp{
+		top: 55%;
+		right: 5%;
+		font-size: 0.6rem;
+	}
+
+	#intro2 p{
+		font-size: 1rem;
+	}
+
+	#intro{
+		opacity: 0;
+	}
+
+	#intro2{
+		top: 140%;
+		opacity: 1;
+	}
+
+	#Layer_2{
+		top: 185%;
+		width: 70%;
+		opacity: 1;
+	}
+
+	.map {
+		font-size: small;
+	}
+
+	#location{
+		top: 176%;
+		opacity: 1;
+	}
+
+	#location1{
+		top: 178.5%;
+		opacity: 1;
+	}
+
+	#location2{
+		top: 193%;
+		left: 50%;
+		opacity: 1;
+	}
+
+	#location3{
+		top: 208%;
+		left: 50%;
+		opacity: 1;
+	}
+
+	#s-leaf{
+		top: 105%;
+		width: 30%;
+	}
+
+	#leaf{
+		top: 163%;
+	}
+
+	.button{
+		width: 25%;
+	}
+
+	#b1{
+		left: 10%;
+		top: 250%;
+		animation: b1 infinite;
+	  }
+	
+	  @keyframes b1{
+		0% {
+			top: 228%;
+		}
+		50%{
+			top: 242%;
+		}
+		100%{
+			top: 228%;
+		}
+	  }
+	
+	  #b2{
+		left: 40%;
+		top: 235%;
+		animation: b2 infinite;
+	  }
+	
+	@keyframes b2{
+		0%{
+			top: 237%;
+		}
+		50%{
+			top: 223%;
+		}
+		100%{
+			top: 237%;
+		}
+	}
+	
+	  #b3{
+		left: 70%;
+		top: 245%;
+		animation: b3 infinite;
+	  }
+	
+	  @keyframes b3{
+		0%{
+			top:233%;
+		}
+		50%{
+			top: 247%;
+		}
+		100%{
+			top: 233%;
+		}
+	  }
+
+ #Layer_3{
+	top: 321%;
+}
+
+ h4{
+	font-size: small;
+	line-height: 0.3px;
+}
+
+#time1{
+	font-size: large;
+	top: 307%;
+	left: 10%;
+}
+
+#des1 {
+	top: 360%;
+}
+
+#line1{
+	top: 322%;
+	width: 1.5px;
+	height: 245px;
+}
+
+#dot1{
+	top: 320%;
+	left: 14%;
+	width: 15px;
+	height: 15px;
+}
+
+
+#time2{
+	font-size: large;
+	top: 312%;
+}
+
+#des2 {
+	top: 345%;
+}
+
+#line2{
+	top: 322%;
+	width: 1.5px;
+	height: 145px;
+}
+
+#dot2{
+	top: 320.5%;
+	left: 24%;
+	width: 15px;
+	height: 15px;
+}
+
+
+#time3{
+	font-size: large;
+	top: 327%;
+	left: 40%;
+}
+
+
+#des3 {
+	top: 285%;
+}
+
+#line3{
+	top: 298%;
+	width: 1.5px;
+	height: 155px;
+}
+
+#dot3{
+	top: 320%;
+	left: 44%;
+	width: 15px;
+	height: 15px;
+}
+
+#time4{
+	font-size: large;
+	top: 310%;
+	left: 54%;
+}
+
+#des4 {
+	position: absolute;
+	top: 350%;
+	left: 52%;
+}
+
+#line4{
+	top: 321%;
+	left: 55%;
+	width: 1.5px;
+}
+
+#dot4{
+	top: 319.5%;
+	left: 53.5%;
+	width: 15px;
+	height: 15px;
+}
+
+#time5{
+	font-size: large;
+	top: 306%;
+}
+
+#des5 {
+	position: absolute;
+	top: 340%;
+	left: 73%;
+}
+
+#line5{
+	top: 321%;
+	left: 75.7%;
+	width: 2px;
+	height: 115px;
+}
+
+#dot5{
+	top: 319%;
+	left: 74%;
+	width: 15px;
+	height: 15px;
+}
+
+#free{
+	opacity: 0;
+}
+
+#free2{
+	position: absolute;
+	top: 390%;
+	font-size: small;
+}
+
+#free2 h3{
+	line-height: 0.3;
+}
+
+#welcome{
+	top: 420%;
+	left: 20%;
+}
+
+#welcome h2{
+	font-size: 1.5rem;
+}
+
+#apply{
+	top: 460%;
+	width: 60%;
+	left: 50%;
+}
+
+.apply{
+	top:458%;
+	font-size: small;
+	left: 36%;
+}
+
+#arrow{
+	top: 443%;
+}
+
+
+.contributor{
+	position: absolute;
+	top: 470%;
+	left: 5%;
+}
+
+.contributor h3{
+	line-height: 0.3;
+}
+
+#info h4{
+	margin-top: 10px;
+	font-size: 0.6rem;
+}
+
+.one{
+	opacity: 0;
+}
+
+.one1{
+	display: flex;
+	gap: 40px;
+	margin-left: 10px;
+}
+
+.two{
+	opacity: 0;
+}
+
+.two1{
+	display: flex;
+	gap: 40px;
+	margin-left: 14px;
+	margin-top: -120px;
+}
+
+.three{
+	opacity: 0;
+}
+
+.three1{
+	display: flex;
+	gap: 40px;
+	margin-left: 70px;
+	margin-top: -120px;
+}
+
+.four{
+	opacity: 0;
+}
+
+.four1{
+	display: flex;
+	gap: 40px;
+	margin-left: 50px;
+	margin-top: -120px;
+}
+
+.five{
+	opacity: 0;
+}
+
+.five1{
+	display: flex;
+	gap: 40px;
+	margin-left: 10px;
+	margin-top: -120px;
+}
+
+.six{
+	opacity: 0;
+}
+
+.six1{
+	display: flex;
+	gap: 40px;
+	margin-left: 50px;
+	margin-top: -160px;
+}
+
+.seven{
+	opacity: 0;
+}
+
+.seven1{
+	display: flex;
+	gap: 40px;
+	margin-left: 30px;
+	margin-top: -140px;
+}
+
+#cloud{
+	width: 50%;
+	left: 40%;
+	top: 705%;
+}
+
+.end{
+	opacity: 0;
+}
+
+.end1{
+	position: absolute;
+	top: 730%;
+}
+
+.end1 h3{
+	font-size: small;
+	line-height: 0.5;
+}
+
+#end{
+	top: 755%;
+}
+
+#earth{
+	top: 470%;
+	width: 30%;
+}
+
 }
