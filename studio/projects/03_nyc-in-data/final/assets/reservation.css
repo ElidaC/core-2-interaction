@@ -204,4 +204,33 @@ a{
         left: 10%;
     }
 
+    .screen{
+        display: contents;
+        top: 60%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    .screen h1{
+        font-size: xx-large;
+    }
+
+    #line1{
+        position: absolute;
+        top: 20%;
+        left: 45%;
+    }
+
+    #day{
+        position: absolute;
+        top: 45%;
+        left: 20%;
+    }
+
+    #line2{
+        position: absolute;
+        top: 70%;
+        left: 10%;
+    }
+    
 }
