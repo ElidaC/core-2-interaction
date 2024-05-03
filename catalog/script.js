@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
       "lw3": "js-Intro",
       "lw4": "js-Dom",
       "lw5": "js Events",
-      "lw6": "Clock - Month"
+      "lw6": "Clock - Month",
+      "lw7": "js-API"
     };
 
     var imageLinks = document.querySelectorAll(".image");
