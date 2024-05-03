@@ -28,6 +28,15 @@ var URL = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&units=impe
       var elementFour = document.getElementById('four');
       var elementFive = document.getElementById('five');
       var elementSix = document.getElementById('six');
+      var elementSeven = document.getElementById('seven');
+      var elementEight = document.getElementById('eight');
+      var elementNine = document.getElementById('nine');
+      var elementTen = document.getElementById('ten');
+      var elementEleven = document.getElementById('eleven');
+      var elementTwelve = document.getElementById('twelve');
+      var elementThirteen = document.getElementById('thirteen');
+      var elementFourteen = document.getElementById('fourteen');
+      var elementFifteen = document.getElementById('fifteen');
   
       var colorStops = [
         { start: '#2D2D81', end: '#000000' },   // 0-1
@@ -66,6 +75,15 @@ var URL = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&units=impe
       elementFour.style.textShadow = textShadow;
       elementFive.style.textShadow = textShadow;
       elementSix.style.textShadow = textShadow;
+      elementSeven.style.textShadow = textShadow;
+      elementEight.style.textShadow = textShadow;
+      elementNine.style.textShadow = textShadow;
+      elementTen.style.textShadow = textShadow;
+      elementEleven.style.textShadow = textShadow;
+      elementTwelve.style.textShadow = textShadow;
+      elementThirteen.style.textShadow = textShadow;
+      elementFourteen.style.textShadow = textShadow;
+      elementFifteen.style.textShadow = textShadow;
       
     }, 1000);
 

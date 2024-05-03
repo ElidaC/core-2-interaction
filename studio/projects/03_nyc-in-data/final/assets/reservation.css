@@ -6,11 +6,6 @@ html{
 }
 
 
-
-
-
-
-
 .label{
     position: absolute;
     animation-name: wave;
@@ -41,14 +36,23 @@ h4{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    filter: blur(5px);
     z-index: 100;
     color: transparent;
+    opacity: 1;
 }
 
-#content:hover{
-    filter: none;
+
+#content1{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: 100;
+    color: transparent;
+    opacity: 0;
 }
+
 
 #arrow{
     position: absolute;
@@ -139,4 +143,65 @@ a{
     width: 26%;
     top: 55%;
     right: 0;
+}
+
+
+
+@media (max-width: 950px) {
+
+    #content{
+        opacity: 0;
+    }
+
+    #content1{
+        position: absolute;
+        top: 50%;
+        opacity: 1;
+    }
+
+    #content1 h4{
+        font-size: small;
+    }
+
+    #clothing{
+        top: 80%;
+        left: 45%;
+    }
+
+    #arrow{
+        right: 5%;
+    }
+
+    #climate{
+        width: 45%;
+        top: 85%;
+        left: 30%;
+    }
+
+    #bubble{
+        width: 30%;
+        top: 75%;
+        right: 2%;
+    }
+
+    #tofu{
+        top: 10%;
+        width: 35%;
+    }
+
+    #salad{
+        top: 25%;
+    }
+
+    #cake{
+        top: 85%;
+        width: 100%;
+        left: 50%;
+    }
+
+    #arrow2{
+        top: 65%;
+        left: 10%;
+    }
+
 }
