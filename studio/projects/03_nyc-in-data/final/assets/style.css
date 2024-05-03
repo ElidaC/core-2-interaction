@@ -178,6 +178,10 @@ p{
 	top: 420%;
 }
 
+#free2{
+	opacity: 0;
+}
+
 #welcome{
 	position: absolute;
 	top: 435%;
@@ -246,40 +250,74 @@ font-style: normal;
 	margin-left: 100px;
 }
 
+.one1{
+	opacity: 0;
+}
+
 .two{
 	display: flex;
 	gap: 40px;
 	margin-left: 140px;
+	margin-top: -220px;
+}
+
+.two1{
+	opacity: 0;
 }
 
 .three{
 	display: flex;
 	gap: 40px;
 	margin-left: 80px;
+	margin-top: -200px;
+}
+
+.three1{
+	opacity: 0;
 }
 
 .four{
 	display: flex;
 	gap: 40px;
 	margin-left: 60px;
+	margin-top: -250px;
+}
+
+.four1{
+	opacity: 0;
 }
 
 .five{
 	display: flex;
 	gap: 40px;
 	margin-left: 170px;
+	margin-top: -190px;
+}
+
+.five1{
+	opacity: 0;
 }
 
 .six{
 	display: flex;
 	gap: 40px;
 	margin-left: 150px;
+	margin-top: -190px;
+}
+
+.six1{
+	opacity: 0;
 }
 
 .seven{
 	display: flex;
 	gap: 40px;
 	margin-left: 200px;
+	margin-top: -280px;
+}
+
+.seven1{
+	opacity: 0;
 }
 
 a {
@@ -579,6 +617,10 @@ h4{
 	top: 750%;
 }
 
+.end1{
+	opacity: 0;
+}
+
 #cloud{
 	position: absolute;
 	top: 715%;
@@ -590,7 +632,6 @@ h4{
 	top: 770%;
 	left: 0;
 	right: 0;
-
 }
 
 #earth{
@@ -963,6 +1004,8 @@ h4{
 	display: flex;
 	gap: 40px;
 	margin-left: 10px;
+	opacity: 1;
+	margin-top: 30px;
 }
 
 .two{
@@ -973,7 +1016,8 @@ h4{
 	display: flex;
 	gap: 40px;
 	margin-left: 14px;
-	margin-top: -120px;
+	opacity: 1;
+	margin-top: 80px;
 }
 
 .three{
@@ -984,7 +1028,8 @@ h4{
 	display: flex;
 	gap: 40px;
 	margin-left: 70px;
-	margin-top: -120px;
+	opacity: 1;
+	margin-top: 60px;
 }
 
 .four{
@@ -995,7 +1040,8 @@ h4{
 	display: flex;
 	gap: 40px;
 	margin-left: 50px;
-	margin-top: -120px;
+	opacity: 1;
+	margin-top: 120px;
 }
 
 .five{
@@ -1006,7 +1052,8 @@ h4{
 	display: flex;
 	gap: 40px;
 	margin-left: 10px;
-	margin-top: -120px;
+	opacity: 1;
+	margin-top: 60px;
 }
 
 .six{
@@ -1017,7 +1064,8 @@ h4{
 	display: flex;
 	gap: 40px;
 	margin-left: 50px;
-	margin-top: -160px;
+	opacity: 1;
+	margin-top: 20px;
 }
 
 .seven{
@@ -1028,13 +1076,14 @@ h4{
 	display: flex;
 	gap: 40px;
 	margin-left: 30px;
-	margin-top: -140px;
+	opacity: 1;
+	margin-top: 120px;
 }
 
 #cloud{
 	width: 50%;
 	left: 40%;
-	top: 705%;
+	top: 695%;
 }
 
 .end{
@@ -1043,7 +1092,8 @@ h4{
 
 .end1{
 	position: absolute;
-	top: 730%;
+	top: 725%;
+	opacity: 1;
 }
 
 .end1 h3{
