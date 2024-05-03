@@ -30,30 +30,30 @@ var URL = `https://api.openweathermap.org/data/2.5/weather?zip=${zip}&units=impe
       var elementSix = document.getElementById('six');
   
       var colorStops = [
-        { start: '#01132D', end: '#081012' },   // 0-1
-        { start: '#081012', end: '#1A4759' },   // 1-2
-        { start: '#1A4759', end: '#0E749D' },   // 2-3
-        { start: '#0E749D', end: '#62B6CC' },   // 3-4
-        { start: '#62B6CC', end: '#F4E0D3' },   // 4-5
-        { start: '#F4E0D3', end: '#E0AB9A' },   // 5-6
-        { start: '#E0AB9A', end: '#C7E6EF' },   // 6-7
-        { start: '#C7E6EF', end: '#9ED9EF' },   // 7-8
-        { start: '#9ED9EF', end: '#68CFFC' },   // 8-9
-        { start: '#68CFFC', end: '#27BFF4' },   // 9-10
-        { start: '#27BFF4', end: '#12A6F9' },   // 10-11
-        { start: '#12A6F9', end: '#008CFF' },   // 11-12
-        { start: '#008CFF', end: '#00AAFF' },   // 12-13
-        { start: '#00AAFF', end: '#19CFF9' },   // 13-14
-        { start: '#19CFF9', end: '#46ECF9' },   // 14-15
-        { start: '#46ECF9', end: '#FFEC00' },   // 15-16
-        { start: '#FFEC00', end: '#F9B050' },   // 16-17
-        { start: '#F9B050', end: '#EF8A84' },   // 17-18
-        { start: '#EF8A84', end: '#698EC9' },   // 18-19
-        { start: '#698EC9', end: '#2578CA' },   // 19-20
-        { start: '#2578CA', end: '#185093' },   // 20-21
-        { start: '#185093', end: '#053A88' },   // 21-22
-        { start: '#053A88', end: '#0F0F82' },   // 22-23
-        { start: '#0F0F82', end: '#01132D' }    // 23-24
+        { start: '#2D2D81', end: '#000000' },   // 0-1
+      { start: '#000000', end: '#15545C' },   // 1-2
+      { start: '#15545C', end: '#3B899B' },   // 2-3
+      { start: '#3B899B', end: '#63B8CC' },   // 3-4
+      { start: '#63B8CC', end: '#F8E2DB' },   // 4-5
+      { start: '#F8E2DB', end: '#FABCB1' },   // 5-6
+      { start: '#FABCB1', end: '#E2F3F7' },   // 6-7
+      { start: '#E2F3F7', end: '#BAE8F7' },   // 7-8
+      { start: '#BAE8F7', end: '#84D4F3' },   // 8-9
+      { start: '#84D4F3', end: '#50C8EC' },   // 9-10
+      { start: '#50C8EC', end: '#3CB2E0' },   // 10-11
+      { start: '#3CB2E0', end: '#1097D3' },   // 11-12
+      { start: '#1097D3', end: '#58BAEA' },   // 12-13
+      { start: '#58BAEA', end: '#9FDCF0' },   // 13-14
+      { start: '#9FDCF0', end: '#69CCE2' },   // 14-15
+      { start: '#69CCE2', end: '#FDEA00' },   // 15-16
+      { start: '#FDEA00', end: '#FCB535' },   // 16-17
+      { start: '#FCB535', end: '#F37E80' },   // 17-18
+      { start: '#F37E80', end: '#81C9DC' },   // 18-19
+      { start: '#81C9DC', end: '#4BA4C4' },   // 19-20
+      { start: '#4BA4C4', end: '#3B7DA3' },   // 20-21
+      { start: '#3B7DA3', end: '#0F60AA' },   // 21-22
+      { start: '#0F60AA', end: '#334BA0' },   // 22-23
+      { start: '#334BA0', end: '#2D2D81' }   // 23-24
       ];
     
       var currentColorStop = colorStops[currentHour];

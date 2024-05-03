@@ -1,4 +1,7 @@
-
+html{
+	background-attachment: fixed;
+	background-size: cover;
+}
   
 
 body {
@@ -46,7 +49,7 @@ h1{
 
 #intro{
 	position: absolute;
-	top: 150%;
+	top: 140%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -323,7 +326,7 @@ h5{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
-	top: 330%;
+	top: 350%;
 }
 
 h4{
@@ -340,7 +343,7 @@ h4{
 	font-family: "quasimoda", sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	top: 320%;
+	top: 340%;
 	left: 14%;
 	animation: move infinite;
 }
@@ -354,13 +357,13 @@ h4{
 
 #des1 {
 	position: absolute;
-	top: 355%;
+	top: 375%;
 	left: 12%;
 }
 
 #line1{
 	position: absolute;
-	top: 332%;
+	top: 352%;
 	left: 15.7%;
 	width: 2px;
 	height: 150px;
@@ -369,7 +372,7 @@ h4{
 
 #dot1{
 	position: absolute;
-	top: 330%;
+	top: 350%;
 	left: 15%;
 	width: 20px;
 	height: 20px;
@@ -384,7 +387,7 @@ h4{
 	font-family: "quasimoda", sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	top: 320%;
+	top: 340%;
 	left: 24%;
 	animation: move infinite;
 }
@@ -397,13 +400,13 @@ h4{
 
 #des2 {
 	position: absolute;
-	top: 355%;
+	top: 375%;
 	left: 23%;
 }
 
 #line2{
 	position: absolute;
-	top: 332%;
+	top: 352%;
 	left: 25.7%;
 	width: 2px;
 	height: 150px;
@@ -412,7 +415,7 @@ h4{
 
 #dot2{
 	position: absolute;
-	top: 330.5%;
+	top: 350.5%;
 	left: 25%;
 	width: 20px;
 	height: 20px;
@@ -427,7 +430,7 @@ h4{
 	font-family: "quasimoda", sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	top: 337%;
+	top: 357%;
 	left: 44%;
 	animation: move infinite;
 }
@@ -440,13 +443,13 @@ h4{
 
 #des3 {
 	position: absolute;
-	top: 295%;
+	top: 315%;
 	left: 42%;
 }
 
 #line3{
 	position: absolute;
-	top: 314%;
+	top: 334%;
 	left: 45.7%;
 	width: 2px;
 	height: 120px;
@@ -455,7 +458,7 @@ h4{
 
 #dot3{
 	position: absolute;
-	top: 330%;
+	top: 350%;
 	left: 45%;
 	width: 20px;
 	height: 20px;
@@ -469,7 +472,7 @@ h4{
 	font-family: "quasimoda", sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	top: 317%;
+	top: 337%;
 	left: 54%;
 	animation: move infinite;
 }
@@ -482,13 +485,13 @@ h4{
 
 #des4 {
 	position: absolute;
-	top: 355%;
+	top: 375%;
 	left: 53%;
 }
 
 #line4{
 	position: absolute;
-	top: 328%;
+	top: 348%;
 	left: 55.7%;
 	width: 2px;
 	height: 180px;
@@ -497,7 +500,7 @@ h4{
 
 #dot4{
 	position: absolute;
-	top: 328%;
+	top: 348%;
 	left: 55%;
 	width: 20px;
 	height: 20px;
@@ -511,7 +514,7 @@ h4{
 	font-family: "quasimoda", sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	top: 316%;
+	top: 336%;
 	left: 74%;
 	animation: move infinite;
 }
@@ -524,13 +527,13 @@ h4{
 
 #des5 {
 	position: absolute;
-	top: 355%;
+	top: 375%;
 	left: 73%;
 }
 
 #line5{
 	position: absolute;
-	top: 327%;
+	top: 347%;
 	left: 75.7%;
 	width: 2px;
 	height: 190px;
@@ -539,7 +542,7 @@ h4{
 
 #dot5{
 	position: absolute;
-	top: 326.5%;
+	top: 346.5%;
 	left: 75%;
 	width: 20px;
 	height: 20px;
@@ -553,7 +556,7 @@ h4{
 	font-family: "quasimoda", sans-serif;
 	font-weight: 800;
 	font-style: normal;
-	top: 335%;
+	top: 355%;
 	left: 83%;
 	animation: move infinite;
 }
@@ -578,20 +581,49 @@ h4{
 
 .end{
 	position: absolute;
-	top: 760%;
+	top: 750%;
 }
 
 #cloud{
 	position: absolute;
-	top: 725%;
+	top: 715%;
 	right: 10%;
 }
 
 #end{
 	position: absolute;
-	top: 780%;
+	top: 770%;
 	left: 0;
 	right: 0;
 
 }
 
+#earth{
+	width: 25%;
+	position: absolute;
+	top: 480%;
+	right: 0;
+	opacity: 0.8;
+}
+
+#s-leaf{
+	width: 25%;
+	position: absolute;
+	top: 153%;
+	left: 3%;
+}
+
+#leaf{
+	width: 20%;
+	position: absolute;
+	top: 160%;
+	right: 5%;
+}
+
+#curve{
+	position: absolute;
+	top: 260%;
+	width: 100%;
+	left: 50%; 
+    transform: translateX(-50%);
+}
