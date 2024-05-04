@@ -1112,3 +1112,277 @@ h4{
 }
 
 }
+
+
+
+
+@media (min-width: 1380px) {
+	h1{
+		font-size: 6.6rem;
+	}
+
+	.time{
+		font-size: 1.5rem;
+	}
+
+	#Layer_1{
+		top: 50%;
+		width: 50%;
+		right: 8%;
+	}
+
+	#arrow1{
+		width: 55%;
+		top: 40%;
+		right: -2%;
+	}
+
+	#lp{
+		top: 32%;
+		right: 14%;
+		font-size: 1.2rem;
+	}
+
+	#intro p{
+		font-size: xx-large;
+	}
+
+	#Layer_2{
+		width: 25%;
+		left: 10%;
+	}
+
+	.map {
+		font-size: large;
+	}
+
+	#location{
+		top: 59%;
+	}
+
+	#location1{
+		top: 61%;
+	}
+
+	#location2{
+		top: 75%;
+		left: 22%;
+	}
+
+	#location3{
+		top: 91%;
+		left: 20%;
+	}
+
+	#Layer_3{
+		width: 100%;
+		top: 340%;
+	}
+
+	h4{
+		font-size: x-large;
+		line-height: 0.3px;
+	}
+	
+	#time1{
+		font-size: xxx-large;
+		top: 330%;
+		left: 10%;
+	}
+	
+	#des1 {
+		top: 365%;
+		left: 8%;
+	}
+	
+	#line1{
+		top: 342%;
+		left: 13%;
+		width: 3px;
+		height: 245px;
+	}
+	
+	#dot1{
+		top: 340%;
+		left: 12.3%;
+		width: 30px;
+		height: 30px;
+	}
+	
+	
+	#time2{
+		font-size: xxx-large;
+		top: 332%;
+		left: 23%;
+	}
+	
+	#des2 {
+		top: 365%;
+		left: 22%;
+	}
+	
+	#line2{
+		top: 342%;
+		left: 25%;
+		width: 3px;
+		height: 245px;
+	}
+	
+	#dot2{
+		top: 340.6%;
+		left: 24.3%;
+		width: 30px;
+		height: 30px;
+	}
+	
+	
+	#time3{
+		font-size: xxx-large;
+		top: 347%;
+		left: 45.5%;
+	}
+	
+	
+	#des3 {
+		top: 305%;
+		left: 44%;
+	}
+	
+	#line3{
+		top: 320%;
+		left: 48%;
+		width: 3px;
+		height: 235px;
+	}
+	
+	#dot3{
+		top: 339.5%;
+		left: 47.3%;
+		width: 30px;
+		height: 30px;
+	}
+	
+	#time4{
+		font-size: xxx-large;
+		top: 326%;
+		left: 58.5%;
+	}
+	
+	#des4 {
+		position: absolute;
+		top: 365%;
+		left: 59%;
+	}
+	
+	#line4{
+		top: 339%;
+		left: 61%;
+		width: 3px;
+		height: 270px;
+	}
+	
+	#dot4{
+		top: 337%;
+		left: 60.3%;
+		width: 30px;
+		height: 30px;
+	}
+	
+	#time5{
+		font-size: xxx-large;
+		top: 327%;
+		left: 81%;
+	}
+	
+	#des5 {
+		position: absolute;
+		top: 365%;
+		left: 81%;
+	}
+	
+	#line5{
+		top: 339%;
+		left: 84%;
+		width: 3px;
+		height: 265px;
+	}
+	
+	#dot5{
+		top: 338%;
+		left: 83.3%;
+		width: 30px;
+		height: 30px;
+	}
+
+	#free{
+		top: 405%;
+	}
+
+	#free h3{
+		font-size: xx-large;
+	}
+
+	#welcome{
+		top: 435%;
+		left: 60%;
+	}
+
+	#welcome h2{
+		font-size: xxx-large;
+	}
+
+	#apply{
+		top: 480%;
+	}
+
+	.apply{
+		top: 478%;
+		font-size: x-large;
+	}
+
+	.contributor h3{
+		font-size: xx-large;
+	}
+
+	.contributor h4{
+		font-size: x-large;
+		line-height: 0.7;
+	}
+
+	.one{
+		margin-top: -100px;
+	}
+
+	.two{
+		margin-top: -360px;
+	}
+
+	.three{
+		margin-top: -300px;
+	}
+
+	.four{
+		margin-top: -390px;
+	}
+
+	.five{
+		margin-top: -290px;
+	}
+
+	.six{
+		margin-top: -270px;
+	}
+
+	.seven{
+		margin-top: -450px;
+	}
+
+	#cloud{
+		top: 710%;
+		width: 30%;
+	}
+
+	.end h3{
+		font-size: xx-large;
+	}
+}

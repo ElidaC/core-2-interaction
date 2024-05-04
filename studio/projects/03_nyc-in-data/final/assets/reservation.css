@@ -234,3 +234,40 @@ a{
     }
     
 }
+
+
+@media (min-width: 1380px) {
+    #content h4{
+        font-size: x-large;
+    }
+
+    .label h2{
+        font-size: xxx-large;
+    }
+
+    .screen{
+        display: contents;
+    }
+
+    #line1{
+        position: absolute;
+        font-size: 6rem;
+        top: 25%;
+        left: 10%;
+    }
+
+    #day{
+        position: absolute;
+        font-size: 19rem;
+        top: 50%;
+        left: 33%;
+    }
+
+    #line2{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        font-size: 6rem;
+    }
+
+}
