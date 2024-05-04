@@ -199,11 +199,17 @@ h3{
 #ten{
     display: flex;
     margin-top: 600px;
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 #ten img{
     filter: none;
+}
+
+#eleven{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 100px;
 }
 
 .hide{
