@@ -82,6 +82,8 @@ h4{
     right: 5%;
 }
 
+
+
 .project{
     margin-top: 150px;
     display: flex;
@@ -366,5 +368,25 @@ h3{
     
     .image{
         margin-top: 200px;
+    }
+}
+
+
+@media (min-width: 1380px) {
+    .navigation{
+        font-size: x-large;
+    }
+
+    .list{
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+
+    h3{
+        font-size: 1.4rem;
+    }
+
+    li{
+        font-size: 1rem;
     }
 }

@@ -81,6 +81,22 @@ h4{
     right: 5%;
 }
 
+#workshop{
+    color: blue;
+}
+
+#workshop:hover{
+    color: yellow;
+}
+
+#project{
+    color: blue;
+}
+
+#project:hover{
+    color: yellow;
+}
+
 h5{
     color: yellow;
     position: absolute;
@@ -267,6 +283,7 @@ video{
     }
 
 
+
 #sp0{
     top: 34%;
     left: 15%;
@@ -395,4 +412,11 @@ video{
     top: 65%;
     width: 20%;
 }
+}
+
+
+@media (min-width: 1380px) {
+    .navigation{
+        font-size: x-large;
+    }
 }
