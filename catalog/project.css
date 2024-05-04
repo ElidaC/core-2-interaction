@@ -407,4 +407,13 @@ h3{
     li{
         font-size: 1rem;
     }
+
+    #three h3{
+        margin-top: 50px;
+    }
+
+    #four h3{
+        margin-top: 80px;
+    }
+
 }
