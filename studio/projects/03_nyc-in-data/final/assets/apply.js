@@ -99,8 +99,8 @@ function renderWeather(data) {
       { start: '#69CCE2', end: '#FDEA00' },   // 15-16
       { start: '#FDEA00', end: '#FCB535' },   // 16-17
       { start: '#FCB535', end: '#F37E80' },   // 17-18
-      { start: '#F37E80', end: '#81C9DC' },   // 18-19
-      { start: '#81C9DC', end: '#4BA4C4' },   // 19-20
+      { start: '#F37E80', end: '#82AEDC' },   // 18-19
+      { start: '#82AEDC', end: '#4BA4C4' },   // 19-20
       { start: '#4BA4C4', end: '#3B7DA3' },   // 20-21
       { start: '#3B7DA3', end: '#0F60AA' },   // 21-22
       { start: '#0F60AA', end: '#334BA0' },   // 22-23
