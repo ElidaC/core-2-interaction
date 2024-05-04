@@ -212,3 +212,185 @@ video{
     justify-content: center;
     opacity: 1;
 }
+
+
+@media (max-width: 950px) {
+    *{
+        margin-left: 3px;
+    }
+
+    #name{
+        font-size: 3rem;
+        line-height: 0.4;
+    }
+
+    #l-name{
+        font-size: 3rem;
+        line-height: 0.4;
+    }
+
+    h4{
+        font-size: 0.7rem;
+    }
+
+    #email {
+        margin-top: -22px;
+    }
+
+    h1{
+        font-size: large;
+    }
+
+    .navigation{
+        gap: 10px;
+        right: 3%;
+        top: 2%;
+    }
+
+    .imageDiv{
+        height: 20%;
+        padding: 30px;
+        top: 70%;
+    }
+
+    #description-container{
+        top: 55%;
+        left: 5%;
+        z-index: 1500;
+    }
+
+    h5{
+        top: 93%;
+        font-size: 0.7rem;
+    }
+
+
+#sp0{
+    top: 34%;
+    left: 15%;
+    width: 40%;
+}
+
+
+#sp1{
+    top: 28%;
+    left: 7%;
+    width: 20%;
+}
+
+#sp2{
+    top: 50%;
+    left: 30%;
+    background-color: transparent;
+    width: 45%;
+}
+
+#sp3{
+    top: 24%;
+    left: 45%;
+    width: 30%;
+}
+
+#lp1{
+    top: 18%;
+    left: 40%;
+    width: 30%;
+}
+
+#lp2{
+    top: 40%;
+    left: 55%;
+    width: 40%;
+}
+
+#lp3{
+    top: 50%;
+    left: 70%;
+    width: 25%;
+}
+
+#lp4{
+    left: 77%;
+}
+
+#lp5{
+    top: 60%;
+    left: 5%;
+    width: 10%;
+}
+
+#lp6{
+    top: 55%;
+    left: 15%;
+    width: 20%;
+}
+
+#sw0{
+    top: 75%;
+    left: 30%;
+    width: 30%;
+}
+
+#sw1{
+    top: 65%;
+    left: 40%;
+    width: 20%;
+}
+
+#sw2{
+    top: 88%;
+    left: 40%;
+    width: 40%;
+}
+
+#sw3{
+    top: 48%;
+    width: 20%;
+}
+
+#lw1{
+    top: 73%;
+    left: 60%;
+    width: 30%;
+}
+
+#lw2{
+    top: 65%;
+    left: 50%;
+    width: 45%;
+}
+
+#lw3{
+    top: 60%;
+    left: 70%;
+    width: 15%;
+}
+
+#lw4{
+    top: 80%;
+    left: 10%;
+    width: 40%;
+}
+
+#lw5{
+    top: 68%;
+    left: 17%;
+    width: 25%;
+}
+
+#lw6{
+    top: 20%;
+    left: 20%;
+    color:  rgb(32, 32, 32);
+    width: 40%;
+}
+
+#lw6:hover{
+    color: white;
+}
+
+#lw7{
+    top: 65%;
+    width: 20%;
+}
+}

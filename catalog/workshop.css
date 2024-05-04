@@ -120,8 +120,6 @@ li:hover{
     display: flex;
 }
 
-
-
 h3{
     font-family: "faustina", sans-serif;
     font-weight: 400;
@@ -154,7 +152,7 @@ h3{
 #four{
     display: flex;
     margin-top: 600px;
-    margin-left: 150px; 
+    margin-left: 100px; 
 }
 
 #four img{
@@ -178,23 +176,24 @@ h3{
 #six{
     display: flex;
     margin-top: 600px;
+    margin-left: 100px;
 }
 
 #seven{
     display: flex;
     margin-top: 600px;
+    margin-left: 200px;
 }
 
 #eight{
     display: flex;
     margin-top: 600px;
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 #nine{
     display: flex;
     margin-top: 600px;
-    margin-left: 200px;
 }
 
 #ten{
@@ -212,10 +211,154 @@ h3{
     color: rgb(32, 32, 32);
 }
 
-#p3{
-    margin-top: -200px;
-}
 
-#p4{
-    margin-top: -130px;
+
+
+
+@media (max-width: 950px) {
+    *{
+        margin-left: 3px;
+    }
+
+    #name{
+        font-size: 3rem;
+        line-height: 0.4;
+    }
+
+
+    h4{
+        font-size: 0.7rem;
+    }
+
+    #email {
+        top: 33%;
+        left: 5%;
+    }
+
+    h1{
+        font-size: large;
+    }
+
+    .navigation{
+        gap: 10px;
+        right: 3%;
+        top: 1%;
+    }
+
+    img{
+        width: 60%;
+    }
+
+    li{
+        font-size: 0.6rem;
+        margin-left: 10px;
+    }
+
+    .fixed{
+        right: 3%;
+        top: 55%;
+        position: fixed;
+    }
+
+    .list{
+        font-size: 0.7rem;
+        margin-left: 10px;
+    }
+
+    h3{
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 50%;
+        font-size: 0.9rem;
+    }
+
+    #one{
+        display: list-item;
+        margin-top: 300px;
+        margin-left: 10px;
+    }
+
+    #two{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #three{
+        display: list-item;
+        margin-top: 300px;
+        margin-left: 10px;
+    }
+
+    #four{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #four h3{
+        margin-top: 50px;
+    }
+
+    #five{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #five img{
+        width: 50%;
+    }
+
+    #six{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #seven{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #seven img{
+        width: 40%;
+    }
+
+    #eight{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #nine{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #nine img{
+        width: 80%;
+    }
+
+    #ten{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #eleven{
+        display: list-item;
+        margin-top: 600px;
+        margin-left: 10px;
+    }
+
+    #eleven img{
+        width: 55%;
+    }
+    
+    .image{
+        margin-top: 200px;
+    }
 }
