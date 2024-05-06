@@ -599,3 +599,74 @@ h3{
 }
 
 }
+
+
+@media (min-width: 1380px) {
+
+	.button1, .button2, .button3, .button4 {
+        font-size: 1.7rem;
+        width: 30%;
+        margin-top: 20px;
+        padding: 30px;
+    }
+
+    h4{
+        font-size: 2.5rem;
+        margin-top: 15px;
+    }
+
+    h2{
+        font-size: 2.5rem;
+        margin-top: 25px;
+    }
+
+    h3{
+        font-size: xxx-large;
+        margin-top: 20px;
+    }
+
+    .quote{
+        top: 10%;
+    }
+
+    .quote h1{
+        font-size: 12rem;
+    }
+
+    .quote h3{
+        font-size: 5rem;
+        line-height: 1.5;
+    }
+
+    .rectangle1{
+        height: 120px;
+    }
+
+    .quit{
+        height: 120px;
+    }
+
+    #home{
+        height: 80px;
+        width: 270px;
+        bottom: 1%;
+        font-size: x-large;
+    }
+
+    #randomButton{
+        height: 80px;
+        width: 270px;
+        bottom: 1%;
+        font-size: x-large;
+    }
+
+    .up{
+        font-size: 20rem;
+    }
+
+    .down{
+        font-size: 20rem;
+        top: 50%;
+    }
+
+}
