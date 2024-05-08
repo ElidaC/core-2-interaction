@@ -9,21 +9,6 @@ function playSound(spanId) {
         case 'span9':
             sound = new Audio('audio/1.mp3'); // Sound for specific spans
             break;
-        case 'span2':
-        case 'span6':
-        case 'span10':
-            sound = new Audio('sound2.mp3'); // Sound for specific spans
-            break;
-        case 'span3':
-        case 'span7':
-        case 'span11':
-            sound = new Audio('sound3.mp3'); // Sound for specific spans
-            break;
-        case 'span4':
-        case 'span8':
-        case 'span12':
-            sound = new Audio('sound4.mp3'); // Sound for specific spans
-            break;
         case 'startGame':
             sound = new Audio('audio/click.mp3'); // Sound for specific spans
             break;
@@ -53,14 +38,4 @@ document.getElementById('span13').addEventListener('mouseenter', () => playSound
 document.getElementById('startGame').addEventListener('mouseenter', () => playSound('startGame'));
 
 
-
-function playSound() {
-    let sound = new Audio('audio/button.mp3');
-    
-    // Play the sound
-    sound.play();
-}
-
-// Add event listener to the button
-document.getElementById('#buttonclick').addEventListener('click', playSound);
 
