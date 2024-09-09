@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(250, 238, 219);
+}
+
+.navigation{
+    position: absolute;
+    right: 3%;
+    display: flex;
+    gap: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(66, 66, 66);
+}
+
+a{
+    color: rgb(66, 66, 66);
+    text-decoration: none; 
+}
+
+a:visited{
+    color: rgb(255, 0, 153);
+}

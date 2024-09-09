@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hit0pot.css">
+    <title>About Me</title>
+</head>
+<body>
+
+    <div class="h2">
+        <h2 align="right">Pick out my 3 pets</h2> 
+        <h2 align="right">Drag them to the middle</h2> 
+    </div>
+
+    <div class="Tote" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <img src="img/homie.jpg" width="500px" id="up">
+    </div>
+
+    <div class="Items">
+        <img src="pets/one.JPG" width="120px" draggable="true" id="item11" ondragstart="drag(event)">
+        <img src="pets/two.jpg" width="120px" draggable="true" id="item12" ondragstart="drag(event)">
+        <img src="pets/three.JPG" width="120px" draggable="true" id="item13" ondragstart="drag(event)">
+        <img src="pets/four.JPG" width="120px" draggable="true" id="item14" ondragstart="drag(event)">
+        <img src="pets/five.jpg" width="120px" draggable="true" id="item15" ondragstart="drag(event)">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="pets/six.JPG" width="120px" draggable="true" id="item16" ondragstart="drag(event)">
+        <img src="pets/seven.JPG" width="120px" draggable="true" id="item17" ondragstart="drag(event)">
+        <img src="pets/eight.JPG" width="120px" draggable="true" id="item18" ondragstart="drag(event)">
+        <img src="pets/nine.JPG" width="120px" draggable="true" id="item19" ondragstart="drag(event)">
+        <img src="pets/ten.jpg" width="120px" draggable="true" id="item20" ondragstart="drag(event)">
+    </div>
+
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>
