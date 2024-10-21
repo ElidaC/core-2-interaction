@@ -36,6 +36,10 @@ svg {
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
+.cls-1 {
+    fill: #fff;
+  }
+
 .show {
     opacity: 1;
     transform: scale(1); /* Scale back to full size when visible */
