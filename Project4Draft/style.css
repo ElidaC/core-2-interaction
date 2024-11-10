@@ -1,0 +1,73 @@
+#dataHere {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.list {
+    display: flex;
+    position: relative;         
+    align-items: flex-end;       
+    padding: 20px;               
+    width: 240px;
+    height: 300px;
+    font-family: "corsario-variable", sans-serif;
+    font-variation-settings: "opsz" 48, "wght" 600;
+    line-height: 45px;
+    letter-spacing: 1.2px;
+    font-size: 48px;
+    text-align: left;
+}
+
+svg{
+    width: 120%;
+    z-index: 100;
+}
+
+
+.list2 {
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    width: 180px;
+    height: 300px; 
+    border-radius: 140px 0 0 0;
+    z-index: -1;
+}
+
+.list2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 1; 
+    mix-blend-mode: lighten;
+    border-radius: 140px 0 0 0;
+    filter: blur(var(--texture-blur)) contrast(100%) brightness(110%);
+    background-image: url(dd.png);
+    z-index: -2;
+}
+
+.type {
+    position: absolute;
+    bottom: 135px;
+    right: -140px; /* Adjust to control how much peeks out on the right */
+    font-size: 130px;
+    font-family: "corsario-variable", sans-serif;
+    font-variation-settings: "opsz" 48, "wght" 700;
+    rotate: -90deg;
+    color: transparent; 
+    -webkit-text-stroke: 2px;
+    z-index: -2; /* Ensure it stays below other elements within .list2 */
+}
+
+/* Dynamic stroke colors based on scent */
+.type.creamy { -webkit-text-stroke: 1px #0084ed; }
+.type.nutty { -webkit-text-stroke: 1px #6d3000; }
+.type.fresh { -webkit-text-stroke: 1px #008594; }
+.type.sweet { -webkit-text-stroke: 1px #f70768; }
+.type.fruity { -webkit-text-stroke: 1px #f18629; }
+.type.floral { -webkit-text-stroke: 1px #5600ae; }
