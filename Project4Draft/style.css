@@ -74,9 +74,9 @@ svg{
 
 
 .oil {
-    width: 15px; /* 自定义宽度 */
-    height: 15px; /* 自定义高度 */
-    border-radius: 50%; /* 使其显示为圆形 */
-    position: absolute; /* 允许随机位置 */
+    width: 15px; 
+    height: 15px; 
+    border-radius: 50%; 
+    position: absolute; 
 }
 
