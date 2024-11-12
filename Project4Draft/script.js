@@ -83,15 +83,22 @@ async function getData() {
             }
 
             // Create oilElement according to oilNum
-            let oilNum = parseInt(dataPoint.oilNum) || 0;
-            for (let i = 0; i < oilNum; i++) {
-                let oilElement = document.createElement("div");
-                newElement.appendChild(oilElement);
-                oilElement.classList.add("oil");
-                oilElement.style.top = `${Math.random() * 290}px`;
-                oilElement.style.left = `${Math.random() * 260}px`;
-                oilElement.style.borderColor = oilColor;
-            }
+let oilNum = parseInt(dataPoint.oilNum) || 0;
+for (let i = 0; i < oilNum; i++) {
+    let oilElement = document.createElement("div");
+    newElement.appendChild(oilElement);
+    oilElement.classList.add("oil");
+
+    // 设置随机位置
+    oilElement.style.top = `${Math.random() * 290}px`;
+    oilElement.style.left = `${Math.random() * 260}px`;
+
+    // 设置边框颜色和样式
+    oilElement.style.borderColor = oilColor;
+    oilElement.style.borderWidth = "1px"; // 设置边框宽度
+    oilElement.style.borderStyle = "solid"; // 设置边框样式
+}
+
         }
     } catch (error) {
         console.error(error);
