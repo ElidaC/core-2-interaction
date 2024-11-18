@@ -1,0 +1,101 @@
+html{
+    background-color:beige;
+}
+
+#dataHere {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.list {
+    display: flex;
+    position: absolute;         
+    align-items: flex-end;       
+    padding: 20px;               
+    width: 260px;
+    height: 300px;
+    font-family: "corsario-variable", sans-serif;
+    font-variation-settings: "opsz" 6, "wght" 700;
+    line-height: 39px;
+    font-size: 44px;
+    text-align: left;
+    top: 15%;
+    left: 5%;
+}
+
+svg{
+    width: 123%;
+}
+
+.svg-container{
+    position: absolute;
+    left: 40%;
+    top: -24%;
+    z-index: -1;
+}
+
+.list2 {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    width: 185px;
+    height: 240px; 
+    border-radius: 130px 0 0 0;
+    z-index: -1;
+}
+
+.list2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 1; 
+    mix-blend-mode: lighten;
+    border-radius: 140px 0 0 0;
+    filter: blur(var(--texture-blur)) contrast(100%) brightness(110%);
+    background-image: url(dd.png);
+    z-index: -2;
+}
+
+.type {
+    position: absolute;
+    bottom: 30%;
+    left: 63%;
+    font-size: 110px;
+    font-family: "corsario-variable", sans-serif;
+    font-variation-settings: "opsz" 6, "wght" 500;
+    rotate: -90deg;
+    color: transparent; 
+    -webkit-text-stroke: 2px;
+    z-index: 0; /* Ensure it stays below other elements within .list2 */
+}
+
+/* Dynamic stroke colors based on scent */
+.type.creamy { -webkit-text-stroke: 1px #0084ed; }
+.type.nutty { -webkit-text-stroke: 1px #6d3000; }
+.type.fresh { -webkit-text-stroke: 1px #008594; }
+.type.sweet { -webkit-text-stroke: 1px #f70768; }
+.type.fruity { -webkit-text-stroke: 1px #f18629; }
+.type.floral { -webkit-text-stroke: 1px #5600ae; }
+
+
+.oil-container {
+    display: flex;
+    gap: 5px; 
+    margin-left: 0px; 
+    margin-bottom: -20px; 
+    position: absolute; 
+}
+
+
+.label {
+    width: 90px; /* 控制宽度 */
+    height: 50px; /* 控制高度 */
+    display: inline-block;
+    position: absolute;
+    transform: translate(0px, -250px); /* 调整位置 */
+}

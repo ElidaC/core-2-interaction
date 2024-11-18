@@ -29,8 +29,6 @@ async function getData() {
             const blurValue = getBlurValue(dataPoint.creamTexture);
             secondElement.style.setProperty("--texture-blur", blurValue);
 
-
-            // Add SVG to secondElement
             secondElement.innerHTML += `
                 <svg class="layer-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425 654">
                     <path class="cls-1" d="M45.64,48.54s50.24-8.83,89.49,5.05c39.25,13.88,106.76,53,114.61,69.41,7.85,16.41,9.42,71.93,28.26,84.55,18.84,12.62,50.24,21.45,62.8,18.93,12.56-2.52,33.04-3.28,44.78,14.13,11.74,17.42,11.81,48.97,0,57.17-11.81,8.2-58.91,20.82-79.32,18.3,0,0,73.79-25.24,61.23-36.6-12.56-11.36,4.89-26.2-54.07-20.67-58.97,5.53-129.61-72.72-131.18-86.6-1.57-13.88,21.13-57.71-5.92-76.81-27.05-19.1-11.35-32.98-130.67-46.86Z"/>
