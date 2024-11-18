@@ -93,9 +93,26 @@ svg{
 
 
 .label {
-    width: 90px; /* 控制宽度 */
-    height: 50px; /* 控制高度 */
-    display: inline-block;
     position: absolute;
-    transform: translate(0px, -250px); /* 调整位置 */
+    top: 22%;
+    left: 10%;
+    width: 28%;
+    z-index: 15;
+    line-height: 13px;
+}
+
+
+
+
+
+
+.logo{
+    position: absolute;
+    top: 11%;
+    left: 8.5%;
+    z-index: 5;
+}
+
+.logo img{
+    width: 15%;
 }
